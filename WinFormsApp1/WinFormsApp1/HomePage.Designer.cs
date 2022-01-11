@@ -148,13 +148,8 @@ namespace WinFormsApp1
             this.pictureBox1.Location = new System.Drawing.Point(53, 175);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-<<<<<<< HEAD
             this.pictureBox1.Size = new System.Drawing.Size(285, 100);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-=======
-            this.pictureBox1.Size = new System.Drawing.Size(326, 134);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
->>>>>>> bf3e07fb6a99bf44032053570fec02a9ca45b6eb
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -165,13 +160,8 @@ namespace WinFormsApp1
             this.pictureBox3.Location = new System.Drawing.Point(536, 175);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-<<<<<<< HEAD
             this.pictureBox3.Size = new System.Drawing.Size(270, 100);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-=======
-            this.pictureBox3.Size = new System.Drawing.Size(309, 134);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
->>>>>>> bf3e07fb6a99bf44032053570fec02a9ca45b6eb
             this.pictureBox3.TabIndex = 7;
             this.pictureBox3.TabStop = false;
             // 
@@ -181,13 +171,8 @@ namespace WinFormsApp1
             this.pictureBox4.Location = new System.Drawing.Point(948, 175);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
-<<<<<<< HEAD
             this.pictureBox4.Size = new System.Drawing.Size(286, 100);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-=======
-            this.pictureBox4.Size = new System.Drawing.Size(327, 134);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
->>>>>>> bf3e07fb6a99bf44032053570fec02a9ca45b6eb
             this.pictureBox4.TabIndex = 8;
             this.pictureBox4.TabStop = false;
             // 
@@ -197,13 +182,8 @@ namespace WinFormsApp1
             this.pictureBox5.Location = new System.Drawing.Point(53, 346);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox5.Name = "pictureBox5";
-<<<<<<< HEAD
             this.pictureBox5.Size = new System.Drawing.Size(285, 100);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-=======
-            this.pictureBox5.Size = new System.Drawing.Size(326, 134);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
->>>>>>> bf3e07fb6a99bf44032053570fec02a9ca45b6eb
             this.pictureBox5.TabIndex = 9;
             this.pictureBox5.TabStop = false;
             // 
@@ -213,13 +193,8 @@ namespace WinFormsApp1
             this.pictureBox6.Location = new System.Drawing.Point(536, 346);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox6.Name = "pictureBox6";
-<<<<<<< HEAD
             this.pictureBox6.Size = new System.Drawing.Size(270, 100);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-=======
-            this.pictureBox6.Size = new System.Drawing.Size(309, 134);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
->>>>>>> bf3e07fb6a99bf44032053570fec02a9ca45b6eb
             this.pictureBox6.TabIndex = 10;
             this.pictureBox6.TabStop = false;
             // 
@@ -229,13 +204,8 @@ namespace WinFormsApp1
             this.pictureBox7.Location = new System.Drawing.Point(948, 346);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox7.Name = "pictureBox7";
-<<<<<<< HEAD
             this.pictureBox7.Size = new System.Drawing.Size(286, 100);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-=======
-            this.pictureBox7.Size = new System.Drawing.Size(327, 134);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
->>>>>>> bf3e07fb6a99bf44032053570fec02a9ca45b6eb
             this.pictureBox7.TabIndex = 11;
             this.pictureBox7.TabStop = false;
             // 
@@ -245,13 +215,8 @@ namespace WinFormsApp1
             this.pictureBox8.Location = new System.Drawing.Point(53, 508);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox8.Name = "pictureBox8";
-<<<<<<< HEAD
             this.pictureBox8.Size = new System.Drawing.Size(285, 100);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-=======
-            this.pictureBox8.Size = new System.Drawing.Size(326, 134);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
->>>>>>> bf3e07fb6a99bf44032053570fec02a9ca45b6eb
             this.pictureBox8.TabIndex = 12;
             this.pictureBox8.TabStop = false;
             // 
@@ -261,13 +226,8 @@ namespace WinFormsApp1
             this.pictureBox9.Location = new System.Drawing.Point(536, 508);
             this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox9.Name = "pictureBox9";
-<<<<<<< HEAD
             this.pictureBox9.Size = new System.Drawing.Size(262, 100);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-=======
-            this.pictureBox9.Size = new System.Drawing.Size(299, 134);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
->>>>>>> bf3e07fb6a99bf44032053570fec02a9ca45b6eb
             this.pictureBox9.TabIndex = 13;
             this.pictureBox9.TabStop = false;
             // 
@@ -277,13 +237,8 @@ namespace WinFormsApp1
             this.pictureBox10.Location = new System.Drawing.Point(948, 508);
             this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox10.Name = "pictureBox10";
-<<<<<<< HEAD
             this.pictureBox10.Size = new System.Drawing.Size(286, 100);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-=======
-            this.pictureBox10.Size = new System.Drawing.Size(327, 134);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
->>>>>>> bf3e07fb6a99bf44032053570fec02a9ca45b6eb
             this.pictureBox10.TabIndex = 14;
             this.pictureBox10.TabStop = false;
             // 
