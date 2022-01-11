@@ -32,8 +32,8 @@ namespace WinFormsApp1.Student
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Problem));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.pythonifelselbl = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.problembtn = new System.Windows.Forms.Button();
             this.submissionsbtn = new System.Windows.Forms.Button();
             this.disscusionsbtn = new System.Windows.Forms.Button();
@@ -67,15 +67,6 @@ namespace WinFormsApp1.Student
             this.panel2.Size = new System.Drawing.Size(1263, 48);
             this.panel2.TabIndex = 1;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "label1";
-            // 
             // pythonifelselbl
             // 
             this.pythonifelselbl.AutoSize = true;
@@ -86,6 +77,15 @@ namespace WinFormsApp1.Student
             this.pythonifelselbl.TabIndex = 0;
             this.pythonifelselbl.Text = "Python If-Else";
             this.pythonifelselbl.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(38, 15);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "label1";
             // 
             // problembtn
             // 
