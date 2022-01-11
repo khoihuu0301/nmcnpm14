@@ -21,5 +21,10 @@ namespace WinFormsApp1.I_O
             hp.Show();
             this.Hide();
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
