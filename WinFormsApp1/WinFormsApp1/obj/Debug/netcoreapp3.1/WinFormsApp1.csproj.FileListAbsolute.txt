@@ -1,0 +1,17 @@
+E:\K19 Document\Computer Structure\HackerrankRep\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.exe
+E:\K19 Document\Computer Structure\HackerrankRep\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.deps.json
+E:\K19 Document\Computer Structure\HackerrankRep\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.runtimeconfig.json
+E:\K19 Document\Computer Structure\HackerrankRep\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.runtimeconfig.dev.json
+E:\K19 Document\Computer Structure\HackerrankRep\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.dll
+E:\K19 Document\Computer Structure\HackerrankRep\WinFormsApp1\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.pdb
+E:\K19 Document\Computer Structure\HackerrankRep\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csprojAssemblyReference.cache
+E:\K19 Document\Computer Structure\HackerrankRep\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.HomePage.resources
+E:\K19 Document\Computer Structure\HackerrankRep\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.I_O.Login.resources
+E:\K19 Document\Computer Structure\HackerrankRep\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Properties.Resources.resources
+E:\K19 Document\Computer Structure\HackerrankRep\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.GenerateResource.cache
+E:\K19 Document\Computer Structure\HackerrankRep\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.AssemblyInfoInputs.cache
+E:\K19 Document\Computer Structure\HackerrankRep\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.AssemblyInfo.cs
+E:\K19 Document\Computer Structure\HackerrankRep\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.CoreCompileInputs.cache
+E:\K19 Document\Computer Structure\HackerrankRep\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.dll
+E:\K19 Document\Computer Structure\HackerrankRep\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.pdb
+E:\K19 Document\Computer Structure\HackerrankRep\WinFormsApp1\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.genruntimeconfig.cache
