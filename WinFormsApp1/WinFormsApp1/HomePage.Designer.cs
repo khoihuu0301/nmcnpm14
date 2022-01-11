@@ -71,26 +71,23 @@ namespace WinFormsApp1
             this.panel1.Controls.Add(this.Exerciselbl);
             this.panel1.Controls.Add(this.Learninglbl);
             this.panel1.Location = new System.Drawing.Point(0, 1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1445, 63);
+            this.panel1.Size = new System.Drawing.Size(1264, 47);
             this.panel1.TabIndex = 0;
             // 
             // SiteLogo
             // 
-            this.SiteLogo.Location = new System.Drawing.Point(30, 15);
-            this.SiteLogo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.SiteLogo.Location = new System.Drawing.Point(26, 11);
             this.SiteLogo.Name = "SiteLogo";
-            this.SiteLogo.Size = new System.Drawing.Size(31, 31);
+            this.SiteLogo.Size = new System.Drawing.Size(27, 23);
             this.SiteLogo.TabIndex = 4;
             this.SiteLogo.TabStop = false;
             // 
             // Avatar
             // 
-            this.Avatar.Location = new System.Drawing.Point(1376, 11);
-            this.Avatar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Avatar.Location = new System.Drawing.Point(1204, 8);
             this.Avatar.Name = "Avatar";
-            this.Avatar.Size = new System.Drawing.Size(35, 36);
+            this.Avatar.Size = new System.Drawing.Size(31, 27);
             this.Avatar.TabIndex = 3;
             this.Avatar.TabStop = false;
             // 
@@ -98,9 +95,9 @@ namespace WinFormsApp1
             // 
             this.UserRealName.AutoSize = true;
             this.UserRealName.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.UserRealName.Location = new System.Drawing.Point(1296, 11);
+            this.UserRealName.Location = new System.Drawing.Point(1134, 8);
             this.UserRealName.Name = "UserRealName";
-            this.UserRealName.Size = new System.Drawing.Size(53, 35);
+            this.UserRealName.Size = new System.Drawing.Size(42, 28);
             this.UserRealName.TabIndex = 1;
             this.UserRealName.Text = "Me";
             // 
@@ -108,9 +105,9 @@ namespace WinFormsApp1
             // 
             this.Fightlbl.AutoSize = true;
             this.Fightlbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Fightlbl.Location = new System.Drawing.Point(409, 11);
+            this.Fightlbl.Location = new System.Drawing.Point(358, 8);
             this.Fightlbl.Name = "Fightlbl";
-            this.Fightlbl.Size = new System.Drawing.Size(75, 35);
+            this.Fightlbl.Size = new System.Drawing.Size(60, 28);
             this.Fightlbl.TabIndex = 2;
             this.Fightlbl.Text = "Fight";
             // 
@@ -118,9 +115,9 @@ namespace WinFormsApp1
             // 
             this.Exerciselbl.AutoSize = true;
             this.Exerciselbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Exerciselbl.Location = new System.Drawing.Point(267, 11);
+            this.Exerciselbl.Location = new System.Drawing.Point(234, 8);
             this.Exerciselbl.Name = "Exerciselbl";
-            this.Exerciselbl.Size = new System.Drawing.Size(110, 35);
+            this.Exerciselbl.Size = new System.Drawing.Size(89, 28);
             this.Exerciselbl.TabIndex = 1;
             this.Exerciselbl.Text = "Exercise";
             // 
@@ -128,9 +125,9 @@ namespace WinFormsApp1
             // 
             this.Learninglbl.AutoSize = true;
             this.Learninglbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Learninglbl.Location = new System.Drawing.Point(126, 11);
+            this.Learninglbl.Location = new System.Drawing.Point(110, 8);
             this.Learninglbl.Name = "Learninglbl";
-            this.Learninglbl.Size = new System.Drawing.Size(117, 35);
+            this.Learninglbl.Size = new System.Drawing.Size(94, 28);
             this.Learninglbl.TabIndex = 0;
             this.Learninglbl.Text = "Learning";
             // 
@@ -138,9 +135,9 @@ namespace WinFormsApp1
             // 
             this.Courseslbl.AutoSize = true;
             this.Courseslbl.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Courseslbl.Location = new System.Drawing.Point(61, 133);
+            this.Courseslbl.Location = new System.Drawing.Point(53, 100);
             this.Courseslbl.Name = "Courseslbl";
-            this.Courseslbl.Size = new System.Drawing.Size(178, 57);
+            this.Courseslbl.Size = new System.Drawing.Size(145, 46);
             this.Courseslbl.TabIndex = 1;
             this.Courseslbl.Text = "Courses";
             // 
@@ -148,9 +145,10 @@ namespace WinFormsApp1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(61, 233);
+            this.pictureBox1.Location = new System.Drawing.Point(53, 175);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(326, 134);
+            this.pictureBox1.Size = new System.Drawing.Size(285, 100);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -159,9 +157,10 @@ namespace WinFormsApp1
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(613, 233);
+            this.pictureBox3.Location = new System.Drawing.Point(536, 175);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(309, 134);
+            this.pictureBox3.Size = new System.Drawing.Size(270, 100);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 7;
             this.pictureBox3.TabStop = false;
@@ -169,9 +168,10 @@ namespace WinFormsApp1
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(1084, 233);
+            this.pictureBox4.Location = new System.Drawing.Point(948, 175);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(327, 134);
+            this.pictureBox4.Size = new System.Drawing.Size(286, 100);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 8;
             this.pictureBox4.TabStop = false;
@@ -179,9 +179,10 @@ namespace WinFormsApp1
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(61, 462);
+            this.pictureBox5.Location = new System.Drawing.Point(53, 346);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(326, 134);
+            this.pictureBox5.Size = new System.Drawing.Size(285, 100);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 9;
             this.pictureBox5.TabStop = false;
@@ -189,9 +190,10 @@ namespace WinFormsApp1
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(613, 462);
+            this.pictureBox6.Location = new System.Drawing.Point(536, 346);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(309, 134);
+            this.pictureBox6.Size = new System.Drawing.Size(270, 100);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 10;
             this.pictureBox6.TabStop = false;
@@ -199,9 +201,10 @@ namespace WinFormsApp1
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(1084, 462);
+            this.pictureBox7.Location = new System.Drawing.Point(948, 346);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(327, 134);
+            this.pictureBox7.Size = new System.Drawing.Size(286, 100);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 11;
             this.pictureBox7.TabStop = false;
@@ -209,9 +212,10 @@ namespace WinFormsApp1
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(61, 678);
+            this.pictureBox8.Location = new System.Drawing.Point(53, 508);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(326, 134);
+            this.pictureBox8.Size = new System.Drawing.Size(285, 100);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 12;
             this.pictureBox8.TabStop = false;
@@ -219,9 +223,10 @@ namespace WinFormsApp1
             // pictureBox9
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(613, 678);
+            this.pictureBox9.Location = new System.Drawing.Point(536, 508);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(299, 134);
+            this.pictureBox9.Size = new System.Drawing.Size(262, 100);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox9.TabIndex = 13;
             this.pictureBox9.TabStop = false;
@@ -229,18 +234,19 @@ namespace WinFormsApp1
             // pictureBox10
             // 
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(1084, 678);
+            this.pictureBox10.Location = new System.Drawing.Point(948, 508);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(327, 134);
+            this.pictureBox10.Size = new System.Drawing.Size(286, 100);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 14;
             this.pictureBox10.TabStop = false;
             // 
             // HomePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1445, 908);
+            this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
@@ -252,9 +258,9 @@ namespace WinFormsApp1
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Courseslbl);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "HomePage";
             this.Text = "HomePage";
+            this.Load += new System.EventHandler(this.HomePage_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SiteLogo)).EndInit();

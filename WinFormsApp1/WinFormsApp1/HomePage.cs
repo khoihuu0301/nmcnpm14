@@ -24,5 +24,10 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void HomePage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
