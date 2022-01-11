@@ -1,7 +1,7 @@
 ﻿
 namespace WinFormsApp1.Student
 {
-    partial class Submissions
+    partial class Editurial
     {
         /// <summary>
         /// Required designer variable.
@@ -47,18 +47,18 @@ namespace WinFormsApp1.Student
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.panel1.Location = new System.Drawing.Point(1, 1);
+            this.panel1.Location = new System.Drawing.Point(0, 1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1263, 49);
-            this.panel1.TabIndex = 1;
+            this.panel1.Size = new System.Drawing.Size(1263, 50);
+            this.panel1.TabIndex = 2;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.pythonifelselbl);
-            this.panel2.Location = new System.Drawing.Point(1, 47);
+            this.panel2.Location = new System.Drawing.Point(0, 47);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1263, 48);
-            this.panel2.TabIndex = 2;
+            this.panel2.Size = new System.Drawing.Size(1263, 49);
+            this.panel2.TabIndex = 3;
             // 
             // pythonifelselbl
             // 
@@ -73,50 +73,50 @@ namespace WinFormsApp1.Student
             // tutorialbtn
             // 
             this.tutorialbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.tutorialbtn.Location = new System.Drawing.Point(526, 121);
+            this.tutorialbtn.Location = new System.Drawing.Point(535, 126);
             this.tutorialbtn.Name = "tutorialbtn";
             this.tutorialbtn.Size = new System.Drawing.Size(108, 39);
-            this.tutorialbtn.TabIndex = 12;
+            this.tutorialbtn.TabIndex = 17;
             this.tutorialbtn.Text = "Tutorial";
             this.tutorialbtn.UseVisualStyleBackColor = true;
             // 
             // editurialbtn
             // 
             this.editurialbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.editurialbtn.Location = new System.Drawing.Point(419, 121);
+            this.editurialbtn.Location = new System.Drawing.Point(428, 126);
             this.editurialbtn.Name = "editurialbtn";
             this.editurialbtn.Size = new System.Drawing.Size(109, 39);
-            this.editurialbtn.TabIndex = 11;
+            this.editurialbtn.TabIndex = 16;
             this.editurialbtn.Text = "Editurial";
             this.editurialbtn.UseVisualStyleBackColor = true;
             // 
             // disscusionsbtn
             // 
             this.disscusionsbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.disscusionsbtn.Location = new System.Drawing.Point(288, 121);
+            this.disscusionsbtn.Location = new System.Drawing.Point(297, 126);
             this.disscusionsbtn.Name = "disscusionsbtn";
             this.disscusionsbtn.Size = new System.Drawing.Size(135, 39);
-            this.disscusionsbtn.TabIndex = 10;
+            this.disscusionsbtn.TabIndex = 15;
             this.disscusionsbtn.Text = "Discussions";
             this.disscusionsbtn.UseVisualStyleBackColor = true;
             // 
             // submissionsbtn
             // 
             this.submissionsbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.submissionsbtn.Location = new System.Drawing.Point(150, 121);
+            this.submissionsbtn.Location = new System.Drawing.Point(159, 126);
             this.submissionsbtn.Name = "submissionsbtn";
             this.submissionsbtn.Size = new System.Drawing.Size(139, 39);
-            this.submissionsbtn.TabIndex = 9;
+            this.submissionsbtn.TabIndex = 14;
             this.submissionsbtn.Text = "Submissions";
             this.submissionsbtn.UseVisualStyleBackColor = true;
             // 
             // problembtn
             // 
             this.problembtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.problembtn.Location = new System.Drawing.Point(45, 121);
+            this.problembtn.Location = new System.Drawing.Point(54, 126);
             this.problembtn.Name = "problembtn";
             this.problembtn.Size = new System.Drawing.Size(107, 39);
-            this.problembtn.TabIndex = 8;
+            this.problembtn.TabIndex = 13;
             this.problembtn.Text = "Problem";
             this.problembtn.UseVisualStyleBackColor = true;
             // 
@@ -124,33 +124,34 @@ namespace WinFormsApp1.Student
             // 
             this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.notilbl);
-            this.panel3.Location = new System.Drawing.Point(45, 189);
+            this.panel3.Location = new System.Drawing.Point(54, 207);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(589, 169);
-            this.panel3.TabIndex = 13;
+            this.panel3.TabIndex = 18;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(140, 102);
+            this.button1.Location = new System.Drawing.Point(136, 101);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(281, 33);
             this.button1.TabIndex = 1;
             this.button1.Text = "Solve Python If-Else problem";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // notilbl
             // 
             this.notilbl.AutoSize = true;
-            this.notilbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.notilbl.Location = new System.Drawing.Point(62, 34);
+            this.notilbl.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.notilbl.Location = new System.Drawing.Point(16, 27);
             this.notilbl.Name = "notilbl";
-            this.notilbl.Size = new System.Drawing.Size(453, 21);
+            this.notilbl.Size = new System.Drawing.Size(546, 38);
             this.notilbl.TabIndex = 0;
-            this.notilbl.Text = "You have not made any submissions for Python If-Else yet.";
+            this.notilbl.Text = "This editorial requires unlocking.\r\nIf you unlock the editorial, your score will " +
+    "not be counted toward your progress.";
+            this.notilbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // Submissions
+            // Editurial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -163,8 +164,8 @@ namespace WinFormsApp1.Student
             this.Controls.Add(this.problembtn);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "Submissions";
-            this.Text = "Submissions";
+            this.Name = "Editurial";
+            this.Text = "Editurial";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -184,7 +185,7 @@ namespace WinFormsApp1.Student
         private System.Windows.Forms.Button submissionsbtn;
         private System.Windows.Forms.Button problembtn;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label notilbl;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label notilbl;
     }
 }
