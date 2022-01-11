@@ -14,5 +14,15 @@ namespace WinFormsApp1
         {
             InitializeComponent();
         }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
