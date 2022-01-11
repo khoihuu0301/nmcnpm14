@@ -1,7 +1,7 @@
 ﻿
 namespace WinFormsApp1.Student
 {
-    partial class Tutorial
+    partial class Disscusions
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,6 @@ namespace WinFormsApp1.Student
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tutorial));
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.tutorialbtn = new System.Windows.Forms.Button();
             this.editurialbtn = new System.Windows.Forms.Button();
             this.disscusionsbtn = new System.Windows.Forms.Button();
@@ -41,100 +37,67 @@ namespace WinFormsApp1.Student
             this.panel2 = new System.Windows.Forms.Panel();
             this.pythonifelselbl = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.notilbl = new System.Windows.Forms.Label();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.notilbl);
-            this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Controls.Add(this.button1);
-            this.panel3.Location = new System.Drawing.Point(54, 207);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(589, 462);
-            this.panel3.TabIndex = 26;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(44, 90);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(462, 317);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(129, 413);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(281, 33);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Solve Python If-Else problem";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tutorialbtn
             // 
             this.tutorialbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.tutorialbtn.Location = new System.Drawing.Point(535, 126);
+            this.tutorialbtn.Location = new System.Drawing.Point(535, 125);
             this.tutorialbtn.Name = "tutorialbtn";
             this.tutorialbtn.Size = new System.Drawing.Size(108, 39);
-            this.tutorialbtn.TabIndex = 25;
+            this.tutorialbtn.TabIndex = 32;
             this.tutorialbtn.Text = "Tutorial";
             this.tutorialbtn.UseVisualStyleBackColor = true;
             // 
             // editurialbtn
             // 
             this.editurialbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.editurialbtn.Location = new System.Drawing.Point(428, 126);
+            this.editurialbtn.Location = new System.Drawing.Point(428, 125);
             this.editurialbtn.Name = "editurialbtn";
             this.editurialbtn.Size = new System.Drawing.Size(109, 39);
-            this.editurialbtn.TabIndex = 24;
+            this.editurialbtn.TabIndex = 31;
             this.editurialbtn.Text = "Editurial";
             this.editurialbtn.UseVisualStyleBackColor = true;
             // 
             // disscusionsbtn
             // 
             this.disscusionsbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.disscusionsbtn.Location = new System.Drawing.Point(297, 126);
+            this.disscusionsbtn.Location = new System.Drawing.Point(297, 125);
             this.disscusionsbtn.Name = "disscusionsbtn";
             this.disscusionsbtn.Size = new System.Drawing.Size(135, 39);
-            this.disscusionsbtn.TabIndex = 23;
+            this.disscusionsbtn.TabIndex = 30;
             this.disscusionsbtn.Text = "Discussions";
             this.disscusionsbtn.UseVisualStyleBackColor = true;
             // 
             // submissionsbtn
             // 
             this.submissionsbtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.submissionsbtn.Location = new System.Drawing.Point(159, 126);
+            this.submissionsbtn.Location = new System.Drawing.Point(159, 125);
             this.submissionsbtn.Name = "submissionsbtn";
             this.submissionsbtn.Size = new System.Drawing.Size(139, 39);
-            this.submissionsbtn.TabIndex = 22;
+            this.submissionsbtn.TabIndex = 29;
             this.submissionsbtn.Text = "Submissions";
             this.submissionsbtn.UseVisualStyleBackColor = true;
             // 
             // problembtn
             // 
             this.problembtn.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.problembtn.Location = new System.Drawing.Point(54, 126);
+            this.problembtn.Location = new System.Drawing.Point(54, 125);
             this.problembtn.Name = "problembtn";
             this.problembtn.Size = new System.Drawing.Size(107, 39);
-            this.problembtn.TabIndex = 21;
+            this.problembtn.TabIndex = 28;
             this.problembtn.Text = "Problem";
             this.problembtn.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.pythonifelselbl);
-            this.panel2.Location = new System.Drawing.Point(0, 47);
+            this.panel2.Location = new System.Drawing.Point(0, 46);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1263, 49);
-            this.panel2.TabIndex = 20;
+            this.panel2.TabIndex = 27;
             // 
             // pythonifelselbl
             // 
@@ -149,25 +112,19 @@ namespace WinFormsApp1.Student
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.panel1.Location = new System.Drawing.Point(0, 1);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1263, 50);
-            this.panel1.TabIndex = 19;
+            this.panel1.TabIndex = 26;
             // 
-            // notilbl
+            // panel3
             // 
-            this.notilbl.AutoSize = true;
-            this.notilbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.notilbl.Location = new System.Drawing.Point(3, 10);
-            this.notilbl.Name = "notilbl";
-            this.notilbl.Size = new System.Drawing.Size(565, 63);
-            this.notilbl.TabIndex = 4;
-            this.notilbl.Text = "In this challenge, we test your knowledge of using if-else conditional \r\nstatemen" +
-    "ts to automate decision-making processes. An if-else statement \r\nhas the followi" +
-    "ng logical flow:";
-            this.notilbl.Click += new System.EventHandler(this.notilbl_Click);
+            this.panel3.Location = new System.Drawing.Point(54, 200);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(589, 345);
+            this.panel3.TabIndex = 33;
             // 
-            // Tutorial
+            // Disscusions
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -180,11 +137,8 @@ namespace WinFormsApp1.Student
             this.Controls.Add(this.problembtn);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "Tutorial";
-            this.Text = "Tutorial";
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Name = "Disscusions";
+            this.Text = "Disscusions";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
@@ -193,8 +147,6 @@ namespace WinFormsApp1.Student
 
         #endregion
 
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button tutorialbtn;
         private System.Windows.Forms.Button editurialbtn;
         private System.Windows.Forms.Button disscusionsbtn;
@@ -203,7 +155,6 @@ namespace WinFormsApp1.Student
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label pythonifelselbl;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label notilbl;
+        private System.Windows.Forms.Panel panel3;
     }
 }

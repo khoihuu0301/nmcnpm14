@@ -29,5 +29,10 @@ namespace WinFormsApp1.Student
         {
 
         }
+
+        private void notilbl_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
