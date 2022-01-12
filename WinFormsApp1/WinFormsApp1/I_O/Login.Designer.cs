@@ -30,14 +30,14 @@ namespace WinFormsApp1.I_O
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.LoginBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.UsernameBox = new System.Windows.Forms.TextBox();
+            this.PasswordBox = new System.Windows.Forms.TextBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,14 +50,25 @@ namespace WinFormsApp1.I_O
             this.panel1.Size = new System.Drawing.Size(1264, 44);
             this.panel1.TabIndex = 0;
             // 
-            // button1
+            // label4
             // 
-            this.button1.Location = new System.Drawing.Point(579, 418);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 43);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Login";
-            this.button1.UseVisualStyleBackColor = true;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(12, 5);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(141, 31);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "GROUP14";
+            // 
+            // LoginBtn
+            // 
+            this.LoginBtn.Location = new System.Drawing.Point(579, 418);
+            this.LoginBtn.Name = "LoginBtn";
+            this.LoginBtn.Size = new System.Drawing.Size(136, 43);
+            this.LoginBtn.TabIndex = 1;
+            this.LoginBtn.Text = "Login";
+            this.LoginBtn.UseVisualStyleBackColor = true;
+            this.LoginBtn.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -79,24 +90,23 @@ namespace WinFormsApp1.I_O
             this.label2.TabIndex = 3;
             this.label2.Text = "Sign in and managing your courses";
             // 
-            // textBox1
+            // UsernameBox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(507, 273);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(275, 25);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "Username";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.UsernameBox.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.UsernameBox.Location = new System.Drawing.Point(507, 273);
+            this.UsernameBox.Name = "UsernameBox";
+            this.UsernameBox.Size = new System.Drawing.Size(275, 25);
+            this.UsernameBox.TabIndex = 4;
+            this.UsernameBox.Text = "Username";
             // 
-            // textBox2
+            // PasswordBox
             // 
-            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(507, 320);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(275, 25);
-            this.textBox2.TabIndex = 5;
-            this.textBox2.Text = "Password";
+            this.PasswordBox.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PasswordBox.Location = new System.Drawing.Point(507, 320);
+            this.PasswordBox.Name = "PasswordBox";
+            this.PasswordBox.Size = new System.Drawing.Size(275, 25);
+            this.PasswordBox.TabIndex = 5;
+            this.PasswordBox.Text = "Password";
             // 
             // checkBox1
             // 
@@ -118,16 +128,6 @@ namespace WinFormsApp1.I_O
             this.label3.TabIndex = 7;
             this.label3.Text = "New to Group14? Sign up now!";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(12, 5);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(141, 31);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "GROUP14";
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -135,15 +135,14 @@ namespace WinFormsApp1.I_O
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.PasswordBox);
+            this.Controls.Add(this.UsernameBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.LoginBtn);
             this.Controls.Add(this.panel1);
             this.Name = "Login";
             this.Text = "Login";
-            this.Load += new System.EventHandler(this.Login_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -154,12 +153,12 @@ namespace WinFormsApp1.I_O
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button LoginBtn;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox UsernameBox;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox PasswordBox;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label3;
     }
