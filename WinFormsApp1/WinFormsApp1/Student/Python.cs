@@ -24,5 +24,12 @@ namespace WinFormsApp1.Student
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Problem pr = new Problem();
+            pr.Show();
+            this.Hide();
+        }
     }
 }
