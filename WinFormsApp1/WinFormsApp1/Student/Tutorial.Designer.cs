@@ -31,8 +31,9 @@ namespace WinFormsApp1.Student
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tutorial));
             this.panel3 = new System.Windows.Forms.Panel();
+            this.notilbl = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.returnproblembtn = new System.Windows.Forms.Button();
             this.tutorialbtn = new System.Windows.Forms.Button();
             this.editurialbtn = new System.Windows.Forms.Button();
             this.disscusionsbtn = new System.Windows.Forms.Button();
@@ -41,7 +42,6 @@ namespace WinFormsApp1.Student
             this.panel2 = new System.Windows.Forms.Panel();
             this.pythonifelselbl = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.notilbl = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -51,11 +51,24 @@ namespace WinFormsApp1.Student
             // 
             this.panel3.Controls.Add(this.notilbl);
             this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Controls.Add(this.button1);
+            this.panel3.Controls.Add(this.returnproblembtn);
             this.panel3.Location = new System.Drawing.Point(54, 207);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(589, 462);
             this.panel3.TabIndex = 26;
+            // 
+            // notilbl
+            // 
+            this.notilbl.AutoSize = true;
+            this.notilbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.notilbl.Location = new System.Drawing.Point(3, 10);
+            this.notilbl.Name = "notilbl";
+            this.notilbl.Size = new System.Drawing.Size(565, 63);
+            this.notilbl.TabIndex = 4;
+            this.notilbl.Text = "In this challenge, we test your knowledge of using if-else conditional \r\nstatemen" +
+    "ts to automate decision-making processes. An if-else statement \r\nhas the followi" +
+    "ng logical flow:";
+            this.notilbl.Click += new System.EventHandler(this.notilbl_Click);
             // 
             // pictureBox1
             // 
@@ -67,16 +80,16 @@ namespace WinFormsApp1.Student
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
+            // returnproblembtn
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(129, 413);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(281, 33);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Solve Python If-Else problem";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.returnproblembtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.returnproblembtn.Location = new System.Drawing.Point(129, 413);
+            this.returnproblembtn.Name = "returnproblembtn";
+            this.returnproblembtn.Size = new System.Drawing.Size(281, 33);
+            this.returnproblembtn.TabIndex = 1;
+            this.returnproblembtn.Text = "Solve Python If-Else problem";
+            this.returnproblembtn.UseVisualStyleBackColor = true;
+            this.returnproblembtn.Click += new System.EventHandler(this.button1_Click);
             // 
             // tutorialbtn
             // 
@@ -154,19 +167,6 @@ namespace WinFormsApp1.Student
             this.panel1.Size = new System.Drawing.Size(1263, 50);
             this.panel1.TabIndex = 19;
             // 
-            // notilbl
-            // 
-            this.notilbl.AutoSize = true;
-            this.notilbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.notilbl.Location = new System.Drawing.Point(3, 10);
-            this.notilbl.Name = "notilbl";
-            this.notilbl.Size = new System.Drawing.Size(565, 63);
-            this.notilbl.TabIndex = 4;
-            this.notilbl.Text = "In this challenge, we test your knowledge of using if-else conditional \r\nstatemen" +
-    "ts to automate decision-making processes. An if-else statement \r\nhas the followi" +
-    "ng logical flow:";
-            this.notilbl.Click += new System.EventHandler(this.notilbl_Click);
-            // 
             // Tutorial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -194,7 +194,7 @@ namespace WinFormsApp1.Student
         #endregion
 
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button returnproblembtn;
         private System.Windows.Forms.Button tutorialbtn;
         private System.Windows.Forms.Button editurialbtn;
         private System.Windows.Forms.Button disscusionsbtn;

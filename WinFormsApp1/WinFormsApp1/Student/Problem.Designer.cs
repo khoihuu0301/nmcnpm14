@@ -44,7 +44,7 @@ namespace WinFormsApp1.Student
             this.label3 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.codetxt = new System.Windows.Forms.TextBox();
             this.runcodebtn = new System.Windows.Forms.Button();
             this.submitcodebtn = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
@@ -182,13 +182,13 @@ namespace WinFormsApp1.Student
             this.label4.TabIndex = 0;
             this.label4.Text = resources.GetString("label4.Text");
             // 
-            // textBox1
+            // codetxt
             // 
-            this.textBox1.Location = new System.Drawing.Point(50, 576);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1024, 23);
-            this.textBox1.TabIndex = 11;
+            this.codetxt.Location = new System.Drawing.Point(50, 576);
+            this.codetxt.Multiline = true;
+            this.codetxt.Name = "codetxt";
+            this.codetxt.Size = new System.Drawing.Size(1024, 23);
+            this.codetxt.TabIndex = 11;
             // 
             // runcodebtn
             // 
@@ -218,7 +218,7 @@ namespace WinFormsApp1.Student
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.submitcodebtn);
             this.Controls.Add(this.runcodebtn);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.codetxt);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -258,7 +258,7 @@ namespace WinFormsApp1.Student
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox codetxt;
         private System.Windows.Forms.Button runcodebtn;
         private System.Windows.Forms.Button submitcodebtn;
     }
