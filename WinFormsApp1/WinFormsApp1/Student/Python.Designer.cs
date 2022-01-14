@@ -29,183 +29,155 @@ namespace WinFormsApp1.Student
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Python));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.Certifylbl = new System.Windows.Forms.Label();
-            this.Preparelbl = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pythonifelselbl = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
+            this.solve1btn = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.pythonlbl = new System.Windows.Forms.Label();
+            this.dc1lbl = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.searchtxt = new System.Windows.Forms.TextBox();
+            this.Avatar = new System.Windows.Forms.PictureBox();
+            this.UserRealName = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel3.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Avatar)).BeginInit();
             this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.Certifylbl);
-            this.panel1.Controls.Add(this.Preparelbl);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1263, 48);
-            this.panel1.TabIndex = 1;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(345, 14);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(606, 23);
-            this.textBox1.TabIndex = 2;
-            // 
-            // Certifylbl
-            // 
-            this.Certifylbl.AutoSize = true;
-            this.Certifylbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Certifylbl.Location = new System.Drawing.Point(208, 9);
-            this.Certifylbl.Name = "Certifylbl";
-            this.Certifylbl.Size = new System.Drawing.Size(77, 28);
-            this.Certifylbl.TabIndex = 1;
-            this.Certifylbl.Text = "Certify";
-            this.Certifylbl.Click += new System.EventHandler(this.Certifylbl_Click);
-            // 
-            // Preparelbl
-            // 
-            this.Preparelbl.AutoSize = true;
-            this.Preparelbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Preparelbl.Location = new System.Drawing.Point(101, 9);
-            this.Preparelbl.Name = "Preparelbl";
-            this.Preparelbl.Size = new System.Drawing.Size(85, 28);
-            this.Preparelbl.TabIndex = 1;
-            this.Preparelbl.Text = "Prepare";
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.pythonifelselbl);
-            this.panel2.Location = new System.Drawing.Point(0, 45);
+            this.panel2.Location = new System.Drawing.Point(0, 60);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1263, 57);
+            this.panel2.Size = new System.Drawing.Size(1443, 76);
             this.panel2.TabIndex = 28;
             // 
             // pythonifelselbl
             // 
             this.pythonifelselbl.AutoSize = true;
             this.pythonifelselbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.pythonifelselbl.Location = new System.Drawing.Point(33, 17);
+            this.pythonifelselbl.Location = new System.Drawing.Point(38, 23);
             this.pythonifelselbl.Name = "pythonifelselbl";
-            this.pythonifelselbl.Size = new System.Drawing.Size(79, 28);
+            this.pythonifelselbl.Size = new System.Drawing.Size(98, 35);
             this.pythonifelselbl.TabIndex = 0;
             this.pythonifelselbl.Text = "Python";
             this.pythonifelselbl.Click += new System.EventHandler(this.pythonifelselbl_Click);
             // 
-            // pictureBox1
+            // solve1btn
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(33, 110);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(603, 559);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 29;
-            this.pictureBox1.TabStop = false;
+            this.solve1btn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.solve1btn.Location = new System.Drawing.Point(460, 14);
+            this.solve1btn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.solve1btn.Name = "solve1btn";
+            this.solve1btn.Size = new System.Drawing.Size(103, 45);
+            this.solve1btn.TabIndex = 30;
+            this.solve1btn.Text = "Solve";
+            this.solve1btn.UseVisualStyleBackColor = true;
+            this.solve1btn.Click += new System.EventHandler(this.solve1btn_Click);
             // 
-            // button1
+            // panel3
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(510, 142);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 34);
-            this.button1.TabIndex = 30;
-            this.button1.Text = "Solve";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.panel3.Controls.Add(this.dc1lbl);
+            this.panel3.Controls.Add(this.pythonlbl);
+            this.panel3.Controls.Add(this.solve1btn);
+            this.panel3.Location = new System.Drawing.Point(38, 171);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(575, 126);
+            this.panel3.TabIndex = 35;
             // 
-            // button2
+            // pythonlbl
             // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(510, 251);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 34);
-            this.button2.TabIndex = 31;
-            this.button2.Text = "Solve";
-            this.button2.UseVisualStyleBackColor = true;
+            this.pythonlbl.AutoSize = true;
+            this.pythonlbl.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.pythonlbl.Location = new System.Drawing.Point(29, 21);
+            this.pythonlbl.Name = "pythonlbl";
+            this.pythonlbl.Size = new System.Drawing.Size(145, 30);
+            this.pythonlbl.TabIndex = 0;
+            this.pythonlbl.Text = "Python If-Else";
+            this.pythonlbl.Click += new System.EventHandler(this.pythonlbl_Click);
             // 
-            // button3
+            // dc1lbl
             // 
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(510, 374);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(90, 34);
-            this.button3.TabIndex = 32;
-            this.button3.Text = "Solve";
-            this.button3.UseVisualStyleBackColor = true;
+            this.dc1lbl.AutoSize = true;
+            this.dc1lbl.Location = new System.Drawing.Point(29, 96);
+            this.dc1lbl.Name = "dc1lbl";
+            this.dc1lbl.Size = new System.Drawing.Size(382, 20);
+            this.dc1lbl.TabIndex = 31;
+            this.dc1lbl.Text = "Easy, Python (Basic), Max Score: 10, Success Rate: 90.97%\r\n";
             // 
-            // button4
+            // panel1
             // 
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(510, 484);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(90, 34);
-            this.button4.TabIndex = 33;
-            this.button4.Text = "Solve";
-            this.button4.UseVisualStyleBackColor = true;
+            this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.panel1.Controls.Add(this.searchtxt);
+            this.panel1.Controls.Add(this.Avatar);
+            this.panel1.Controls.Add(this.UserRealName);
+            this.panel1.Location = new System.Drawing.Point(0, 1);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1445, 63);
+            this.panel1.TabIndex = 36;
             // 
-            // button5
+            // searchtxt
             // 
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(510, 594);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(90, 34);
-            this.button5.TabIndex = 34;
-            this.button5.Text = "Solve";
-            this.button5.UseVisualStyleBackColor = true;
+            this.searchtxt.Location = new System.Drawing.Point(560, 15);
+            this.searchtxt.Name = "searchtxt";
+            this.searchtxt.Size = new System.Drawing.Size(692, 27);
+            this.searchtxt.TabIndex = 15;
+            // 
+            // Avatar
+            // 
+            this.Avatar.Location = new System.Drawing.Point(1376, 11);
+            this.Avatar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Avatar.Name = "Avatar";
+            this.Avatar.Size = new System.Drawing.Size(35, 36);
+            this.Avatar.TabIndex = 3;
+            this.Avatar.TabStop = false;
+            // 
+            // UserRealName
+            // 
+            this.UserRealName.AutoSize = true;
+            this.UserRealName.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.UserRealName.Location = new System.Drawing.Point(1296, 11);
+            this.UserRealName.Name = "UserRealName";
+            this.UserRealName.Size = new System.Drawing.Size(53, 35);
+            this.UserRealName.TabIndex = 1;
+            this.UserRealName.Text = "Me";
+            this.UserRealName.Click += new System.EventHandler(this.UserRealName_Click);
             // 
             // Python
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.panel2);
+            this.ClientSize = new System.Drawing.Size(1445, 908);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Python";
             this.Text = "Python";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Avatar)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label Certifylbl;
-        private System.Windows.Forms.Label Preparelbl;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label pythonifelselbl;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button solve1btn;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label pythonlbl;
+        private System.Windows.Forms.Label dc1lbl;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TextBox searchtxt;
+        private System.Windows.Forms.PictureBox Avatar;
+        private System.Windows.Forms.Label UserRealName;
     }
 }

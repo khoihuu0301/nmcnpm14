@@ -51,5 +51,12 @@ namespace WinFormsApp1.Student
             pr.Show();
             this.Hide();
         }
+
+        private void UserRealName_Click(object sender, EventArgs e)
+        {
+            Profile pf = new Profile();
+            pf.Show();
+            this.Hide();
+        }
     }
 }

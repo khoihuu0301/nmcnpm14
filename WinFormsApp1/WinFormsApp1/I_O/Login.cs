@@ -23,13 +23,7 @@ namespace WinFormsApp1.I_O
             InitializeComponent();
         }
 
-        private void Learninglbl_Click(object sender, EventArgs e)
-        {
-            HomePage hp = new HomePage();
-            hp.Show();
-            this.Hide();
-        }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {   conn = new SqlConnection(connectionString);
             conn.Open();
@@ -47,11 +41,24 @@ namespace WinFormsApp1.I_O
                 {
                     case 1:
                         {   
+
                             break;
                         }
 
                 }
             }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Signin sn = new Signin();
+            sn.Show();
+            this.Hide();
+        }
+
+        private void UsernameBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
