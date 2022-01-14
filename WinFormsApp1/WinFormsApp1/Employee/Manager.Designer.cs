@@ -131,7 +131,7 @@
             this.coureselbl.Size = new System.Drawing.Size(87, 28);
             this.coureselbl.TabIndex = 0;
             this.coureselbl.Text = "Courese";
-            this.coureselbl.Click += new System.EventHandler(this.label3_Click);
+
             // 
             // couresepic
             // 

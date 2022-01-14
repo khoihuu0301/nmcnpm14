@@ -44,5 +44,10 @@ namespace WinFormsApp1.I_O
         {
 
         }
+
+        private void UsernameBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
