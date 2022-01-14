@@ -50,6 +50,7 @@ namespace WinFormsApp1.Student
             this.tutorialbtn.TabIndex = 32;
             this.tutorialbtn.Text = "Tutorial";
             this.tutorialbtn.UseVisualStyleBackColor = true;
+            this.tutorialbtn.Click += new System.EventHandler(this.tutorialbtn_Click);
             // 
             // editurialbtn
             // 
@@ -60,6 +61,7 @@ namespace WinFormsApp1.Student
             this.editurialbtn.TabIndex = 31;
             this.editurialbtn.Text = "Editurial";
             this.editurialbtn.UseVisualStyleBackColor = true;
+            this.editurialbtn.Click += new System.EventHandler(this.editurialbtn_Click);
             // 
             // disscusionsbtn
             // 
@@ -80,6 +82,7 @@ namespace WinFormsApp1.Student
             this.submissionsbtn.TabIndex = 29;
             this.submissionsbtn.Text = "Submissions";
             this.submissionsbtn.UseVisualStyleBackColor = true;
+            this.submissionsbtn.Click += new System.EventHandler(this.submissionsbtn_Click);
             // 
             // problembtn
             // 
@@ -90,6 +93,7 @@ namespace WinFormsApp1.Student
             this.problembtn.TabIndex = 28;
             this.problembtn.Text = "Problem";
             this.problembtn.UseVisualStyleBackColor = true;
+            this.problembtn.Click += new System.EventHandler(this.problembtn_Click);
             // 
             // panel2
             // 

@@ -38,7 +38,7 @@ namespace WinFormsApp1.Student
             this.submissionsbtn = new System.Windows.Forms.Button();
             this.problembtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.returnproblembtn = new System.Windows.Forms.Button();
             this.notilbl = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -79,6 +79,7 @@ namespace WinFormsApp1.Student
             this.tutorialbtn.TabIndex = 17;
             this.tutorialbtn.Text = "Tutorial";
             this.tutorialbtn.UseVisualStyleBackColor = true;
+            this.tutorialbtn.Click += new System.EventHandler(this.tutorialbtn_Click);
             // 
             // editurialbtn
             // 
@@ -99,6 +100,7 @@ namespace WinFormsApp1.Student
             this.disscusionsbtn.TabIndex = 15;
             this.disscusionsbtn.Text = "Discussions";
             this.disscusionsbtn.UseVisualStyleBackColor = true;
+            this.disscusionsbtn.Click += new System.EventHandler(this.disscusionsbtn_Click);
             // 
             // submissionsbtn
             // 
@@ -109,6 +111,7 @@ namespace WinFormsApp1.Student
             this.submissionsbtn.TabIndex = 14;
             this.submissionsbtn.Text = "Submissions";
             this.submissionsbtn.UseVisualStyleBackColor = true;
+            this.submissionsbtn.Click += new System.EventHandler(this.submissionsbtn_Click);
             // 
             // problembtn
             // 
@@ -119,25 +122,26 @@ namespace WinFormsApp1.Student
             this.problembtn.TabIndex = 13;
             this.problembtn.Text = "Problem";
             this.problembtn.UseVisualStyleBackColor = true;
+            this.problembtn.Click += new System.EventHandler(this.problembtn_Click);
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.button1);
+            this.panel3.Controls.Add(this.returnproblembtn);
             this.panel3.Controls.Add(this.notilbl);
             this.panel3.Location = new System.Drawing.Point(54, 207);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(589, 169);
             this.panel3.TabIndex = 18;
             // 
-            // button1
+            // returnproblembtn
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(136, 101);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(281, 33);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Solve Python If-Else problem";
-            this.button1.UseVisualStyleBackColor = true;
+            this.returnproblembtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.returnproblembtn.Location = new System.Drawing.Point(136, 101);
+            this.returnproblembtn.Name = "returnproblembtn";
+            this.returnproblembtn.Size = new System.Drawing.Size(281, 33);
+            this.returnproblembtn.TabIndex = 1;
+            this.returnproblembtn.Text = "Solve Python If-Else problem";
+            this.returnproblembtn.UseVisualStyleBackColor = true;
             // 
             // notilbl
             // 
@@ -185,7 +189,7 @@ namespace WinFormsApp1.Student
         private System.Windows.Forms.Button submissionsbtn;
         private System.Windows.Forms.Button problembtn;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button returnproblembtn;
         private System.Windows.Forms.Label notilbl;
     }
 }

@@ -14,5 +14,29 @@ namespace WinFormsApp1.Student
         {
             InitializeComponent();
         }
+
+        private void problembtn_Click(object sender, EventArgs e)
+        {
+            Problem pr = new Problem();
+            pr.Show();
+        }
+
+        private void submissionsbtn_Click(object sender, EventArgs e)
+        {
+            Submissions sm = new Submissions();
+            sm.Show();
+        }
+
+        private void editurialbtn_Click(object sender, EventArgs e)
+        {
+            Editurial ed = new Editurial();
+            ed.Show();
+        }
+
+        private void tutorialbtn_Click(object sender, EventArgs e)
+        {
+            Tutorial tt = new Tutorial();
+            tt.Show();
+        }
     }
 }
