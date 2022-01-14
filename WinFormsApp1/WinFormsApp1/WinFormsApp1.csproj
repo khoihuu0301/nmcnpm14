@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="Employee\" />
     <Folder Include="CEO\" />
-    <Folder Include="Student\" />
     <Folder Include="Resources\" />
   </ItemGroup>
 
