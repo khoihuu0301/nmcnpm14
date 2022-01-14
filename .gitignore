@@ -1,2 +1,5 @@
 
 WinFormsApp1/WinFormsApp1/obj/
+*.cache
+*.json
+*.resources

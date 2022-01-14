@@ -155,7 +155,7 @@ namespace WinFormsApp1.I_O
             this.Signinbtn.Location = new System.Drawing.Point(478, 290);
             this.Signinbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Signinbtn.Name = "Signinbtn";
-            this.Signinbtn.Size = new System.Drawing.Size(177, 22);
+            this.Signinbtn.Size = new System.Drawing.Size(177, 27);
             this.Signinbtn.TabIndex = 8;
             this.Signinbtn.Text = "Sign In";
             this.Signinbtn.UseVisualStyleBackColor = true;
