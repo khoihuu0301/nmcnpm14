@@ -38,5 +38,12 @@ namespace WinFormsApp1.Student
             Tutorial tt = new Tutorial();
             tt.Show();
         }
+
+        private void UserRealName_Click(object sender, EventArgs e)
+        {
+            Profile pf = new Profile();
+            pf.Show();
+            this.Hide();
+        }
     }
 }

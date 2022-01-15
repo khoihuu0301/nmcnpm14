@@ -31,6 +31,7 @@ namespace WinFormsApp1.Student
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tutorial));
             this.panel3 = new System.Windows.Forms.Panel();
+            this.returnproblembtn = new System.Windows.Forms.Button();
             this.notilbl = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tutorialbtn = new System.Windows.Forms.Button();
@@ -41,10 +42,14 @@ namespace WinFormsApp1.Student
             this.panel2 = new System.Windows.Forms.Panel();
             this.pythonifelselbl = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.returnproblembtn = new System.Windows.Forms.Button();
+            this.UserRealName = new System.Windows.Forms.Label();
+            this.searchtxt = new System.Windows.Forms.TextBox();
+            this.Avatar = new System.Windows.Forms.PictureBox();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Avatar)).BeginInit();
             this.SuspendLayout();
             // 
             // panel3
@@ -54,8 +59,19 @@ namespace WinFormsApp1.Student
             this.panel3.Controls.Add(this.pictureBox1);
             this.panel3.Location = new System.Drawing.Point(54, 207);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(589, 462);
+            this.panel3.Size = new System.Drawing.Size(627, 462);
             this.panel3.TabIndex = 26;
+            // 
+            // returnproblembtn
+            // 
+            this.returnproblembtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.returnproblembtn.Location = new System.Drawing.Point(133, 413);
+            this.returnproblembtn.Name = "returnproblembtn";
+            this.returnproblembtn.Size = new System.Drawing.Size(281, 33);
+            this.returnproblembtn.TabIndex = 5;
+            this.returnproblembtn.Text = "Solve Python If-Else problem";
+            this.returnproblembtn.UseVisualStyleBackColor = true;
+            this.returnproblembtn.Click += new System.EventHandler(this.returnproblembtn_Click);
             // 
             // notilbl
             // 
@@ -155,27 +171,47 @@ namespace WinFormsApp1.Student
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.panel1.Controls.Add(this.UserRealName);
+            this.panel1.Controls.Add(this.searchtxt);
+            this.panel1.Controls.Add(this.Avatar);
             this.panel1.Location = new System.Drawing.Point(0, 1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1263, 50);
-            this.panel1.TabIndex = 19;
+            this.panel1.Size = new System.Drawing.Size(1264, 47);
+            this.panel1.TabIndex = 27;
             // 
-            // returnproblembtn
+            // UserRealName
             // 
-            this.returnproblembtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.returnproblembtn.Location = new System.Drawing.Point(133, 413);
-            this.returnproblembtn.Name = "returnproblembtn";
-            this.returnproblembtn.Size = new System.Drawing.Size(281, 33);
-            this.returnproblembtn.TabIndex = 5;
-            this.returnproblembtn.Text = "Solve Python If-Else problem";
-            this.returnproblembtn.UseVisualStyleBackColor = true;
-            this.returnproblembtn.Click += new System.EventHandler(this.returnproblembtn_Click);
+            this.UserRealName.AutoSize = true;
+            this.UserRealName.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.UserRealName.Location = new System.Drawing.Point(1138, 9);
+            this.UserRealName.Name = "UserRealName";
+            this.UserRealName.Size = new System.Drawing.Size(42, 28);
+            this.UserRealName.TabIndex = 28;
+            this.UserRealName.Text = "Me";
+            this.UserRealName.Click += new System.EventHandler(this.UserRealName_Click);
+            // 
+            // searchtxt
+            // 
+            this.searchtxt.Location = new System.Drawing.Point(490, 11);
+            this.searchtxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.searchtxt.Name = "searchtxt";
+            this.searchtxt.Size = new System.Drawing.Size(606, 23);
+            this.searchtxt.TabIndex = 15;
+            // 
+            // Avatar
+            // 
+            this.Avatar.Location = new System.Drawing.Point(1204, 8);
+            this.Avatar.Name = "Avatar";
+            this.Avatar.Size = new System.Drawing.Size(31, 27);
+            this.Avatar.TabIndex = 3;
+            this.Avatar.TabStop = false;
             // 
             // Tutorial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.tutorialbtn);
             this.Controls.Add(this.editurialbtn);
@@ -183,14 +219,17 @@ namespace WinFormsApp1.Student
             this.Controls.Add(this.submissionsbtn);
             this.Controls.Add(this.problembtn);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
             this.Name = "Tutorial";
             this.Text = "Tutorial";
+            this.Load += new System.EventHandler(this.Tutorial_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Avatar)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -205,9 +244,12 @@ namespace WinFormsApp1.Student
         private System.Windows.Forms.Button problembtn;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label pythonifelselbl;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label notilbl;
         private System.Windows.Forms.Button returnproblembtn;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TextBox searchtxt;
+        private System.Windows.Forms.PictureBox Avatar;
+        private System.Windows.Forms.Label UserRealName;
     }
 }
