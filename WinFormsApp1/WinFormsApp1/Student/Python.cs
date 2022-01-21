@@ -25,25 +25,10 @@ namespace WinFormsApp1.Student
 
         }
 
-
-        private void solve1btn_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             Problem pr = new Problem();
             pr.Show();
-            this.Hide();
-        }
-
-        private void pythonlbl_Click(object sender, EventArgs e)
-        {
-            Problem pr = new Problem();
-            pr.Show();
-            this.Hide();
-        }
-
-        private void UserRealName_Click(object sender, EventArgs e)
-        {
-            Profile pf = new Profile();
-            pf.Show();
             this.Hide();
         }
     }
