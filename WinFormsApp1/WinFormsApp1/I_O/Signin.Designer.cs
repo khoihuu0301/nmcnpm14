@@ -29,187 +29,149 @@ namespace WinFormsApp1.I_O
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.Certifylbl = new System.Windows.Forms.Label();
-            this.Preparelbl = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.Loginlbl = new System.Windows.Forms.Label();
-            this.Passwordlbl = new System.Windows.Forms.Label();
-            this.Comfirmlbl = new System.Windows.Forms.Label();
-            this.logintxt = new System.Windows.Forms.TextBox();
-            this.passwordtxt = new System.Windows.Forms.TextBox();
-            this.comfirmtxt = new System.Windows.Forms.TextBox();
-            this.Signinbtn = new System.Windows.Forms.Button();
             this.suasetslbl = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.searchtxt = new System.Windows.Forms.TextBox();
+            this.Avatar = new System.Windows.Forms.PictureBox();
+            this.UserRealName = new System.Windows.Forms.Label();
+            this.UsernameBox = new System.Windows.Forms.TextBox();
+            this.PasswordBox = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Signinbtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Avatar)).BeginInit();
             this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.Certifylbl);
-            this.panel1.Controls.Add(this.Preparelbl);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1104, 48);
-            this.panel1.TabIndex = 0;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(304, 20);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(606, 23);
-            this.textBox1.TabIndex = 2;
-            // 
-            // Certifylbl
-            // 
-            this.Certifylbl.AutoSize = true;
-            this.Certifylbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Certifylbl.Location = new System.Drawing.Point(172, 14);
-            this.Certifylbl.Name = "Certifylbl";
-            this.Certifylbl.Size = new System.Drawing.Size(77, 28);
-            this.Certifylbl.TabIndex = 1;
-            this.Certifylbl.Text = "Certify";
-            this.Certifylbl.Click += new System.EventHandler(this.Certifylbl_Click);
-            // 
-            // Preparelbl
-            // 
-            this.Preparelbl.AutoSize = true;
-            this.Preparelbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Preparelbl.Location = new System.Drawing.Point(73, 14);
-            this.Preparelbl.Name = "Preparelbl";
-            this.Preparelbl.Size = new System.Drawing.Size(85, 28);
-            this.Preparelbl.TabIndex = 1;
-            this.Preparelbl.Text = "Prepare";
-            this.Preparelbl.Click += new System.EventHandler(this.label1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(498, 98);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(508, 131);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 37);
+            this.label1.Size = new System.Drawing.Size(206, 65);
             this.label1.TabIndex = 1;
             this.label1.Text = "Sign Up";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
-            // Loginlbl
-            // 
-            this.Loginlbl.AutoSize = true;
-            this.Loginlbl.Location = new System.Drawing.Point(383, 184);
-            this.Loginlbl.Name = "Loginlbl";
-            this.Loginlbl.Size = new System.Drawing.Size(37, 15);
-            this.Loginlbl.TabIndex = 2;
-            this.Loginlbl.Text = "Login";
-            // 
-            // Passwordlbl
-            // 
-            this.Passwordlbl.AutoSize = true;
-            this.Passwordlbl.Location = new System.Drawing.Point(383, 218);
-            this.Passwordlbl.Name = "Passwordlbl";
-            this.Passwordlbl.Size = new System.Drawing.Size(57, 15);
-            this.Passwordlbl.TabIndex = 3;
-            this.Passwordlbl.Text = "Password";
-            // 
-            // Comfirmlbl
-            // 
-            this.Comfirmlbl.AutoSize = true;
-            this.Comfirmlbl.Location = new System.Drawing.Point(383, 253);
-            this.Comfirmlbl.Name = "Comfirmlbl";
-            this.Comfirmlbl.Size = new System.Drawing.Size(55, 15);
-            this.Comfirmlbl.TabIndex = 4;
-            this.Comfirmlbl.Text = "Comfirm";
-            this.Comfirmlbl.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // logintxt
-            // 
-            this.logintxt.Location = new System.Drawing.Point(478, 179);
-            this.logintxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.logintxt.Name = "logintxt";
-            this.logintxt.Size = new System.Drawing.Size(177, 23);
-            this.logintxt.TabIndex = 5;
-            // 
-            // passwordtxt
-            // 
-            this.passwordtxt.Location = new System.Drawing.Point(478, 212);
-            this.passwordtxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.passwordtxt.Name = "passwordtxt";
-            this.passwordtxt.Size = new System.Drawing.Size(177, 23);
-            this.passwordtxt.TabIndex = 6;
-            // 
-            // comfirmtxt
-            // 
-            this.comfirmtxt.Location = new System.Drawing.Point(478, 248);
-            this.comfirmtxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comfirmtxt.Name = "comfirmtxt";
-            this.comfirmtxt.Size = new System.Drawing.Size(177, 23);
-            this.comfirmtxt.TabIndex = 7;
-            // 
-            // Signinbtn
-            // 
-            this.Signinbtn.Location = new System.Drawing.Point(478, 290);
-            this.Signinbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Signinbtn.Name = "Signinbtn";
-            this.Signinbtn.Size = new System.Drawing.Size(177, 27);
-            this.Signinbtn.TabIndex = 8;
-            this.Signinbtn.Text = "Sign In";
-            this.Signinbtn.UseVisualStyleBackColor = true;
-            this.Signinbtn.Click += new System.EventHandler(this.Signinbtn_Click);
-            // 
             // suasetslbl
             // 
             this.suasetslbl.AutoSize = true;
-            this.suasetslbl.Location = new System.Drawing.Point(457, 143);
+            this.suasetslbl.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.suasetslbl.Location = new System.Drawing.Point(461, 243);
             this.suasetslbl.Name = "suasetslbl";
-            this.suasetslbl.Size = new System.Drawing.Size(190, 15);
+            this.suasetslbl.Size = new System.Drawing.Size(306, 25);
             this.suasetslbl.TabIndex = 9;
             this.suasetslbl.Text = "Sign up and start exploring the site";
             this.suasetslbl.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.panel1.Controls.Add(this.searchtxt);
+            this.panel1.Controls.Add(this.Avatar);
+            this.panel1.Controls.Add(this.UserRealName);
+            this.panel1.Location = new System.Drawing.Point(0, 2);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1264, 47);
+            this.panel1.TabIndex = 15;
+            // 
+            // searchtxt
+            // 
+            this.searchtxt.Location = new System.Drawing.Point(490, 11);
+            this.searchtxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.searchtxt.Name = "searchtxt";
+            this.searchtxt.Size = new System.Drawing.Size(606, 23);
+            this.searchtxt.TabIndex = 15;
+            // 
+            // Avatar
+            // 
+            this.Avatar.Location = new System.Drawing.Point(1204, 8);
+            this.Avatar.Name = "Avatar";
+            this.Avatar.Size = new System.Drawing.Size(31, 27);
+            this.Avatar.TabIndex = 3;
+            this.Avatar.TabStop = false;
+            // 
+            // UserRealName
+            // 
+            this.UserRealName.AutoSize = true;
+            this.UserRealName.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.UserRealName.Location = new System.Drawing.Point(1134, 8);
+            this.UserRealName.Name = "UserRealName";
+            this.UserRealName.Size = new System.Drawing.Size(42, 28);
+            this.UserRealName.TabIndex = 1;
+            this.UserRealName.Text = "Me";
+            // 
+            // UsernameBox
+            // 
+            this.UsernameBox.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.UsernameBox.Location = new System.Drawing.Point(473, 338);
+            this.UsernameBox.Name = "UsernameBox";
+            this.UsernameBox.Size = new System.Drawing.Size(275, 25);
+            this.UsernameBox.TabIndex = 16;
+            this.UsernameBox.Text = "Username";
+            this.UsernameBox.TextChanged += new System.EventHandler(this.UsernameBox_TextChanged);
+            // 
+            // PasswordBox
+            // 
+            this.PasswordBox.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PasswordBox.Location = new System.Drawing.Point(473, 398);
+            this.PasswordBox.Name = "PasswordBox";
+            this.PasswordBox.Size = new System.Drawing.Size(275, 25);
+            this.PasswordBox.TabIndex = 17;
+            this.PasswordBox.Text = "Password";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox1.Location = new System.Drawing.Point(473, 460);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(275, 25);
+            this.textBox1.TabIndex = 18;
+            this.textBox1.Text = "Comfirm";
+            // 
+            // Signinbtn
+            // 
+            this.Signinbtn.Location = new System.Drawing.Point(548, 507);
+            this.Signinbtn.Name = "Signinbtn";
+            this.Signinbtn.Size = new System.Drawing.Size(136, 43);
+            this.Signinbtn.TabIndex = 19;
+            this.Signinbtn.Text = "Sign in";
+            this.Signinbtn.UseVisualStyleBackColor = true;
             // 
             // Signin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1104, 505);
-            this.Controls.Add(this.suasetslbl);
+            this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.Signinbtn);
-            this.Controls.Add(this.comfirmtxt);
-            this.Controls.Add(this.passwordtxt);
-            this.Controls.Add(this.logintxt);
-            this.Controls.Add(this.Comfirmlbl);
-            this.Controls.Add(this.Passwordlbl);
-            this.Controls.Add(this.Loginlbl);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.PasswordBox);
+            this.Controls.Add(this.UsernameBox);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.suasetslbl);
+            this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Signin";
             this.Text = "Signin";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Avatar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label Preparelbl;
-        private System.Windows.Forms.Label Certifylbl;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label Loginlbl;
-        private System.Windows.Forms.Label Passwordlbl;
-        private System.Windows.Forms.Label Comfirmlbl;
-        private System.Windows.Forms.TextBox logintxt;
-        private System.Windows.Forms.TextBox passwordtxt;
-        private System.Windows.Forms.TextBox comfirmtxt;
-        private System.Windows.Forms.Button Signinbtn;
         private System.Windows.Forms.Label suasetslbl;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TextBox searchtxt;
+        private System.Windows.Forms.PictureBox Avatar;
+        private System.Windows.Forms.Label UserRealName;
+        private System.Windows.Forms.TextBox UsernameBox;
+        private System.Windows.Forms.TextBox PasswordBox;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button Signinbtn;
     }
 }
