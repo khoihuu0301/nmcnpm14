@@ -56,9 +56,11 @@ namespace WinFormsApp1.I_O
             this.Hide();
         }
 
+
         private void UsernameBox_TextChanged(object sender, EventArgs e)
         {
 
         }
+
     }
 }

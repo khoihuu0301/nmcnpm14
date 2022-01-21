@@ -110,6 +110,7 @@ namespace WinFormsApp1.I_O
             this.UsernameBox.Size = new System.Drawing.Size(275, 25);
             this.UsernameBox.TabIndex = 16;
             this.UsernameBox.Text = "Username";
+            this.UsernameBox.TextChanged += new System.EventHandler(this.UsernameBox_TextChanged);
             // 
             // PasswordBox
             // 

@@ -46,6 +46,7 @@ create table BAITAP
 	D nvarchar(max),
 	Correct char(1),
 	Score smallint,
+	uploader char(25),
 )
 
 
@@ -115,6 +116,8 @@ add constraint FK_HS_BT_BAITAP foreign key (ID_BT) references BAITAP(ID_BT)
 alter table HS_CERT
 add constraint FK_HS_CERT_CLASS foreign key (ID_CLASS) references CLASS(ID_CLASS)
 
+alter table baitap add constraint Correct_Answer 
+
 insert into hocsinh values (1,N'NVA', 'Nam', '03/20/2001',0,0)
 insert into NGUOIDUNG values ('test','test',1,1,null,null)
 insert into nhanvien values (1,'test',N'Nữ', '123456789', '03/20/2001',0,0)
@@ -122,3 +125,4 @@ insert into NGUOIDUNG values ('nhanvien','test',2,null,1,null)
 insert into qtv values (1, 'test','Nam', '123456789', '03/20/2001', 0)
 insert into NGUOIDUNG values ('qtv','test',3,null,null,1)
 
+insert into BAITAP values(
