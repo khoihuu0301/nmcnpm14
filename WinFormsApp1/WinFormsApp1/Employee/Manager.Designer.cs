@@ -33,29 +33,29 @@
             this.searchtxt = new System.Windows.Forms.TextBox();
             this.Avatar = new System.Windows.Forms.PictureBox();
             this.UserRealName = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.studentpic = new System.Windows.Forms.PictureBox();
-            this.ttstudentlbl = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.couresepic = new System.Windows.Forms.PictureBox();
-            this.coureselbl = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.exercisepic = new System.Windows.Forms.PictureBox();
-            this.exerciselbl = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.managernamelbl = new System.Windows.Forms.Label();
             this.managerpic = new System.Windows.Forms.PictureBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.managernamelbl = new System.Windows.Forms.Label();
+            this.pythonpic = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.addlbl = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.viewlbl = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.viewstudentlbl = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Avatar)).BeginInit();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.studentpic)).BeginInit();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.couresepic)).BeginInit();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.exercisepic)).BeginInit();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.managerpic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pythonpic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -95,93 +95,6 @@
             this.UserRealName.TabIndex = 1;
             this.UserRealName.Text = "Me";
             // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.studentpic);
-            this.panel2.Controls.Add(this.ttstudentlbl);
-            this.panel2.Location = new System.Drawing.Point(934, 102);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(272, 107);
-            this.panel2.TabIndex = 2;
-            // 
-            // studentpic
-            // 
-            this.studentpic.Image = ((System.Drawing.Image)(resources.GetObject("studentpic.Image")));
-            this.studentpic.Location = new System.Drawing.Point(23, 12);
-            this.studentpic.Name = "studentpic";
-            this.studentpic.Size = new System.Drawing.Size(45, 43);
-            this.studentpic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.studentpic.TabIndex = 1;
-            this.studentpic.TabStop = false;
-            // 
-            // ttstudentlbl
-            // 
-            this.ttstudentlbl.AutoSize = true;
-            this.ttstudentlbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ttstudentlbl.Location = new System.Drawing.Point(105, 12);
-            this.ttstudentlbl.Name = "ttstudentlbl";
-            this.ttstudentlbl.Size = new System.Drawing.Size(137, 28);
-            this.ttstudentlbl.TabIndex = 0;
-            this.ttstudentlbl.Text = "Total student";
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.couresepic);
-            this.panel3.Controls.Add(this.coureselbl);
-            this.panel3.Location = new System.Drawing.Point(262, 102);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(272, 107);
-            this.panel3.TabIndex = 3;
-            // 
-            // couresepic
-            // 
-            this.couresepic.Image = ((System.Drawing.Image)(resources.GetObject("couresepic.Image")));
-            this.couresepic.Location = new System.Drawing.Point(26, 12);
-            this.couresepic.Name = "couresepic";
-            this.couresepic.Size = new System.Drawing.Size(45, 43);
-            this.couresepic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.couresepic.TabIndex = 1;
-            this.couresepic.TabStop = false;
-            // 
-            // coureselbl
-            // 
-            this.coureselbl.AutoSize = true;
-            this.coureselbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.coureselbl.Location = new System.Drawing.Point(155, 12);
-            this.coureselbl.Name = "coureselbl";
-            this.coureselbl.Size = new System.Drawing.Size(87, 28);
-            this.coureselbl.TabIndex = 0;
-            this.coureselbl.Text = "Courese";
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.exercisepic);
-            this.panel4.Controls.Add(this.exerciselbl);
-            this.panel4.Location = new System.Drawing.Point(594, 102);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(272, 107);
-            this.panel4.TabIndex = 4;
-            // 
-            // exercisepic
-            // 
-            this.exercisepic.Image = ((System.Drawing.Image)(resources.GetObject("exercisepic.Image")));
-            this.exercisepic.Location = new System.Drawing.Point(26, 12);
-            this.exercisepic.Name = "exercisepic";
-            this.exercisepic.Size = new System.Drawing.Size(45, 43);
-            this.exercisepic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.exercisepic.TabIndex = 1;
-            this.exercisepic.TabStop = false;
-            // 
-            // exerciselbl
-            // 
-            this.exerciselbl.AutoSize = true;
-            this.exerciselbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.exerciselbl.Location = new System.Drawing.Point(155, 12);
-            this.exerciselbl.Name = "exerciselbl";
-            this.exerciselbl.Size = new System.Drawing.Size(89, 28);
-            this.exerciselbl.TabIndex = 0;
-            this.exerciselbl.Text = "Exercise";
-            // 
             // panel5
             // 
             this.panel5.Controls.Add(this.managernamelbl);
@@ -190,6 +103,16 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(200, 642);
             this.panel5.TabIndex = 5;
+            // 
+            // managernamelbl
+            // 
+            this.managernamelbl.AutoSize = true;
+            this.managernamelbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.managernamelbl.Location = new System.Drawing.Point(55, 19);
+            this.managernamelbl.Name = "managernamelbl";
+            this.managernamelbl.Size = new System.Drawing.Size(96, 28);
+            this.managernamelbl.TabIndex = 1;
+            this.managernamelbl.Text = "Manager";
             // 
             // managerpic
             // 
@@ -202,43 +125,122 @@
             this.managerpic.TabIndex = 0;
             this.managerpic.TabStop = false;
             // 
-            // managernamelbl
+            // pythonpic
             // 
-            this.managernamelbl.AutoSize = true;
-            this.managernamelbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.managernamelbl.Location = new System.Drawing.Point(55, 19);
-            this.managernamelbl.Name = "managernamelbl";
-            this.managernamelbl.Size = new System.Drawing.Size(96, 28);
-            this.managernamelbl.TabIndex = 1;
-            this.managernamelbl.Text = "Manager";
+            this.pythonpic.Image = ((System.Drawing.Image)(resources.GetObject("pythonpic.Image")));
+            this.pythonpic.Location = new System.Drawing.Point(273, 233);
+            this.pythonpic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pythonpic.Name = "pythonpic";
+            this.pythonpic.Size = new System.Drawing.Size(270, 100);
+            this.pythonpic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pythonpic.TabIndex = 11;
+            this.pythonpic.TabStop = false;
+            this.pythonpic.Click += new System.EventHandler(this.pythonpic_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(273, 421);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(270, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.panel6);
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Controls.Add(this.panel4);
+            this.panel2.Location = new System.Drawing.Point(201, 48);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1063, 109);
+            this.panel2.TabIndex = 13;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.addlbl);
+            this.panel4.Location = new System.Drawing.Point(381, 48);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(200, 61);
+            this.panel4.TabIndex = 0;
+            // 
+            // addlbl
+            // 
+            this.addlbl.AutoSize = true;
+            this.addlbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.addlbl.Location = new System.Drawing.Point(19, 18);
+            this.addlbl.Name = "addlbl";
+            this.addlbl.Size = new System.Drawing.Size(129, 28);
+            this.addlbl.TabIndex = 14;
+            this.addlbl.Text = "Add Courses";
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.viewlbl);
+            this.panel3.Location = new System.Drawing.Point(72, 48);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(200, 61);
+            this.panel3.TabIndex = 17;
+            // 
+            // viewlbl
+            // 
+            this.viewlbl.AutoSize = true;
+            this.viewlbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.viewlbl.Location = new System.Drawing.Point(19, 18);
+            this.viewlbl.Name = "viewlbl";
+            this.viewlbl.Size = new System.Drawing.Size(137, 28);
+            this.viewlbl.TabIndex = 0;
+            this.viewlbl.Text = "View Courses";
+            this.viewlbl.Click += new System.EventHandler(this.viewlbl_Click);
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.viewstudentlbl);
+            this.panel6.Location = new System.Drawing.Point(698, 48);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(200, 61);
+            this.panel6.TabIndex = 18;
+            // 
+            // viewstudentlbl
+            // 
+            this.viewstudentlbl.AutoSize = true;
+            this.viewstudentlbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.viewstudentlbl.Location = new System.Drawing.Point(19, 18);
+            this.viewstudentlbl.Name = "viewstudentlbl";
+            this.viewstudentlbl.Size = new System.Drawing.Size(138, 28);
+            this.viewstudentlbl.TabIndex = 0;
+            this.viewstudentlbl.Text = "View Student";
             // 
             // Manager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pythonpic);
             this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
             this.Name = "Manager";
             this.Text = "Manager";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Avatar)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.studentpic)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.couresepic)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.exercisepic)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.managerpic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pythonpic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -249,18 +251,18 @@
         private System.Windows.Forms.TextBox searchtxt;
         private System.Windows.Forms.PictureBox Avatar;
         private System.Windows.Forms.Label UserRealName;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox studentpic;
-        private System.Windows.Forms.Label ttstudentlbl;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label coureselbl;
-        private System.Windows.Forms.PictureBox couresepic;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.PictureBox exercisepic;
-        private System.Windows.Forms.Label exerciselbl;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label managernamelbl;
         private System.Windows.Forms.PictureBox managerpic;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.PictureBox pythonpic;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label addlbl;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label viewlbl;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Label viewstudentlbl;
     }
 }

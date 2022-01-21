@@ -15,6 +15,21 @@ namespace WinFormsApp1.Employee
             InitializeComponent();
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void pythonpic_Click(object sender, EventArgs e)
+        {
+            EditPython ep = new EditPython();
+            ep.Show();
+            this.Hide();
+        }
+
+        private void viewlbl_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
