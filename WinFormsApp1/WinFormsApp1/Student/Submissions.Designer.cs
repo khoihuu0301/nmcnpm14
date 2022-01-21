@@ -38,8 +38,10 @@ namespace WinFormsApp1.Student
             this.submissionsbtn = new System.Windows.Forms.Button();
             this.problembtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.notilbl = new System.Windows.Forms.Label();
             this.returnproblembtn = new System.Windows.Forms.Button();
+            this.notilbl = new System.Windows.Forms.Label();
+            this.UserRealName = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -47,6 +49,7 @@ namespace WinFormsApp1.Student
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.panel1.Controls.Add(this.UserRealName);
             this.panel1.Location = new System.Drawing.Point(1, 1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1263, 49);
@@ -133,16 +136,6 @@ namespace WinFormsApp1.Student
             this.panel3.Size = new System.Drawing.Size(589, 169);
             this.panel3.TabIndex = 13;
             // 
-            // notilbl
-            // 
-            this.notilbl.AutoSize = true;
-            this.notilbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.notilbl.Location = new System.Drawing.Point(62, 34);
-            this.notilbl.Name = "notilbl";
-            this.notilbl.Size = new System.Drawing.Size(453, 21);
-            this.notilbl.TabIndex = 0;
-            this.notilbl.Text = "You have not made any submissions for Python If-Else yet.";
-            // 
             // returnproblembtn
             // 
             this.returnproblembtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -153,6 +146,26 @@ namespace WinFormsApp1.Student
             this.returnproblembtn.Text = "Solve Python If-Else problem";
             this.returnproblembtn.UseVisualStyleBackColor = true;
             this.returnproblembtn.Click += new System.EventHandler(this.returnproblembtn_Click);
+            // 
+            // notilbl
+            // 
+            this.notilbl.AutoSize = true;
+            this.notilbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.notilbl.Location = new System.Drawing.Point(62, 34);
+            this.notilbl.Name = "notilbl";
+            this.notilbl.Size = new System.Drawing.Size(453, 21);
+            this.notilbl.TabIndex = 0;
+            this.notilbl.Text = "You have not made any submissions for Python If-Else yet.";
+            // 
+            // UserRealName
+            // 
+            this.UserRealName.AutoSize = true;
+            this.UserRealName.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.UserRealName.Location = new System.Drawing.Point(1134, 8);
+            this.UserRealName.Name = "UserRealName";
+            this.UserRealName.Size = new System.Drawing.Size(42, 28);
+            this.UserRealName.TabIndex = 14;
+            this.UserRealName.Text = "Me";
             // 
             // Submissions
             // 
@@ -169,6 +182,8 @@ namespace WinFormsApp1.Student
             this.Controls.Add(this.panel1);
             this.Name = "Submissions";
             this.Text = "Submissions";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -190,5 +205,6 @@ namespace WinFormsApp1.Student
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label notilbl;
         private System.Windows.Forms.Button returnproblembtn;
+        private System.Windows.Forms.Label UserRealName;
     }
 }

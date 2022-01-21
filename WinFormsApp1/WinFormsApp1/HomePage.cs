@@ -34,5 +34,20 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void pypic_Click(object sender, EventArgs e)
+        {
+            Student.Python py = new Student.Python();
+            py.Show();
+            this.Hide();
+
+        }
+
+        private void UserRealName_Click(object sender, EventArgs e)
+        {
+            Student.Profile pf = new Student.Profile();
+            pf.Show();
+            this.Hide();
+        }
     }
 }

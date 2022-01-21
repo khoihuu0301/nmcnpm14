@@ -31,6 +31,7 @@ namespace WinFormsApp1.Student
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tutorial));
             this.panel3 = new System.Windows.Forms.Panel();
+            this.returnproblembtn = new System.Windows.Forms.Button();
             this.notilbl = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tutorialbtn = new System.Windows.Forms.Button();
@@ -41,10 +42,11 @@ namespace WinFormsApp1.Student
             this.panel2 = new System.Windows.Forms.Panel();
             this.pythonifelselbl = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.returnproblembtn = new System.Windows.Forms.Button();
+            this.UserRealName = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel3
@@ -56,6 +58,17 @@ namespace WinFormsApp1.Student
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(589, 462);
             this.panel3.TabIndex = 26;
+            // 
+            // returnproblembtn
+            // 
+            this.returnproblembtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.returnproblembtn.Location = new System.Drawing.Point(133, 413);
+            this.returnproblembtn.Name = "returnproblembtn";
+            this.returnproblembtn.Size = new System.Drawing.Size(281, 33);
+            this.returnproblembtn.TabIndex = 5;
+            this.returnproblembtn.Text = "Solve Python If-Else problem";
+            this.returnproblembtn.UseVisualStyleBackColor = true;
+            this.returnproblembtn.Click += new System.EventHandler(this.returnproblembtn_Click);
             // 
             // notilbl
             // 
@@ -155,21 +168,21 @@ namespace WinFormsApp1.Student
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.panel1.Controls.Add(this.UserRealName);
             this.panel1.Location = new System.Drawing.Point(0, 1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1263, 50);
             this.panel1.TabIndex = 19;
             // 
-            // returnproblembtn
+            // UserRealName
             // 
-            this.returnproblembtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.returnproblembtn.Location = new System.Drawing.Point(133, 413);
-            this.returnproblembtn.Name = "returnproblembtn";
-            this.returnproblembtn.Size = new System.Drawing.Size(281, 33);
-            this.returnproblembtn.TabIndex = 5;
-            this.returnproblembtn.Text = "Solve Python If-Else problem";
-            this.returnproblembtn.UseVisualStyleBackColor = true;
-            this.returnproblembtn.Click += new System.EventHandler(this.returnproblembtn_Click);
+            this.UserRealName.AutoSize = true;
+            this.UserRealName.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.UserRealName.Location = new System.Drawing.Point(1134, 8);
+            this.UserRealName.Name = "UserRealName";
+            this.UserRealName.Size = new System.Drawing.Size(42, 28);
+            this.UserRealName.TabIndex = 27;
+            this.UserRealName.Text = "Me";
             // 
             // Tutorial
             // 
@@ -191,6 +204,8 @@ namespace WinFormsApp1.Student
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -209,5 +224,6 @@ namespace WinFormsApp1.Student
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label notilbl;
         private System.Windows.Forms.Button returnproblembtn;
+        private System.Windows.Forms.Label UserRealName;
     }
 }

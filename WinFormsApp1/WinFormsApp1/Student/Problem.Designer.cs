@@ -33,20 +33,20 @@ namespace WinFormsApp1.Student
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pythonifelselbl = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.problembtn = new System.Windows.Forms.Button();
             this.submissionsbtn = new System.Windows.Forms.Button();
             this.disscusionsbtn = new System.Windows.Forms.Button();
             this.editurialbtn = new System.Windows.Forms.Button();
             this.tutorialbtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.codetxt = new System.Windows.Forms.TextBox();
             this.runcodebtn = new System.Windows.Forms.Button();
             this.submitcodebtn = new System.Windows.Forms.Button();
+            this.UserRealName = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
@@ -54,6 +54,7 @@ namespace WinFormsApp1.Student
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.panel1.Controls.Add(this.UserRealName);
             this.panel1.Location = new System.Drawing.Point(0, 1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1263, 50);
@@ -77,15 +78,6 @@ namespace WinFormsApp1.Student
             this.pythonifelselbl.TabIndex = 0;
             this.pythonifelselbl.Text = "Python If-Else";
             this.pythonifelselbl.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "label1";
             // 
             // problembtn
             // 
@@ -149,15 +141,6 @@ namespace WinFormsApp1.Student
             this.panel3.Size = new System.Drawing.Size(596, 342);
             this.panel3.TabIndex = 8;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 15);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "label2";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -216,6 +199,17 @@ namespace WinFormsApp1.Student
             this.submitcodebtn.UseVisualStyleBackColor = true;
             this.submitcodebtn.Click += new System.EventHandler(this.button1_Click);
             // 
+            // UserRealName
+            // 
+            this.UserRealName.AutoSize = true;
+            this.UserRealName.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.UserRealName.Location = new System.Drawing.Point(1134, 8);
+            this.UserRealName.Name = "UserRealName";
+            this.UserRealName.Size = new System.Drawing.Size(42, 28);
+            this.UserRealName.TabIndex = 14;
+            this.UserRealName.Text = "Me";
+            this.UserRealName.Click += new System.EventHandler(this.UserRealName_Click);
+            // 
             // Problem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -226,18 +220,18 @@ namespace WinFormsApp1.Student
             this.Controls.Add(this.codetxt);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.tutorialbtn);
             this.Controls.Add(this.editurialbtn);
             this.Controls.Add(this.disscusionsbtn);
             this.Controls.Add(this.submissionsbtn);
             this.Controls.Add(this.problembtn);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Problem";
             this.Text = "Problem";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel4.ResumeLayout(false);
@@ -252,7 +246,6 @@ namespace WinFormsApp1.Student
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label pythonifelselbl;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button problembtn;
         private System.Windows.Forms.Button submissionsbtn;
         private System.Windows.Forms.Button disscusionsbtn;
@@ -260,11 +253,11 @@ namespace WinFormsApp1.Student
         private System.Windows.Forms.Button tutorialbtn;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox codetxt;
         private System.Windows.Forms.Button runcodebtn;
         private System.Windows.Forms.Button submitcodebtn;
+        private System.Windows.Forms.Label UserRealName;
     }
 }

@@ -72,5 +72,10 @@ namespace WinFormsApp1.Student
         {
 
         }
+
+        private void UserRealName_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

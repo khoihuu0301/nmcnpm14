@@ -19,24 +19,28 @@ namespace WinFormsApp1.Student
         {
             Problem pr = new Problem();
             pr.Show();
+            this.Hide();
         }
 
         private void submissionsbtn_Click(object sender, EventArgs e)
         {
             Submissions sm = new Submissions();
             sm.Show();
+            this.Hide();
         }
 
         private void editurialbtn_Click(object sender, EventArgs e)
         {
             Editurial ed = new Editurial();
             ed.Show();
+            this.Hide();
         }
 
         private void tutorialbtn_Click(object sender, EventArgs e)
         {
             Tutorial tt = new Tutorial();
             tt.Show();
+            this.Hide();
         }
     }
 }

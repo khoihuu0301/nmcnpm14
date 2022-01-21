@@ -19,24 +19,35 @@ namespace WinFormsApp1.Student
         {
             Problem pr = new Problem();
             pr.Show();
+            this.Hide();
         }
 
         private void submissionsbtn_Click(object sender, EventArgs e)
         {
             Submissions sm = new Submissions();
             sm.Show();
+            this.Hide();
         }
 
         private void disscusionsbtn_Click(object sender, EventArgs e)
         {
             Disscusions dc = new Disscusions();
             dc.Show();
+            this.Hide();
         }
 
         private void tutorialbtn_Click(object sender, EventArgs e)
         {
             Tutorial tt = new Tutorial();
             tt.Show();
+            this.Hide();
+        }
+
+        private void returnproblembtn_Click(object sender, EventArgs e)
+        {
+            Problem pr = new Problem();
+            pr.Show();
+            this.Hide();
         }
     }
 }

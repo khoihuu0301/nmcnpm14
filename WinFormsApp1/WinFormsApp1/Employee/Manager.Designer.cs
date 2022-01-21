@@ -40,12 +40,12 @@
             this.pythonpic = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.addlbl = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.viewlbl = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.viewstudentlbl = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.viewlbl = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.addlbl = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Avatar)).BeginInit();
             this.panel5.SuspendLayout();
@@ -53,9 +53,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pythonpic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.panel6.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -94,6 +94,7 @@
             this.UserRealName.Size = new System.Drawing.Size(42, 28);
             this.UserRealName.TabIndex = 1;
             this.UserRealName.Text = "Me";
+            this.UserRealName.Click += new System.EventHandler(this.UserRealName_Click);
             // 
             // panel5
             // 
@@ -159,23 +160,23 @@
             this.panel2.Size = new System.Drawing.Size(1063, 109);
             this.panel2.TabIndex = 13;
             // 
-            // panel4
+            // panel6
             // 
-            this.panel4.Controls.Add(this.addlbl);
-            this.panel4.Location = new System.Drawing.Point(381, 48);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 61);
-            this.panel4.TabIndex = 0;
+            this.panel6.Controls.Add(this.viewstudentlbl);
+            this.panel6.Location = new System.Drawing.Point(698, 48);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(200, 61);
+            this.panel6.TabIndex = 18;
             // 
-            // addlbl
+            // viewstudentlbl
             // 
-            this.addlbl.AutoSize = true;
-            this.addlbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.addlbl.Location = new System.Drawing.Point(19, 18);
-            this.addlbl.Name = "addlbl";
-            this.addlbl.Size = new System.Drawing.Size(129, 28);
-            this.addlbl.TabIndex = 14;
-            this.addlbl.Text = "Add Courses";
+            this.viewstudentlbl.AutoSize = true;
+            this.viewstudentlbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.viewstudentlbl.Location = new System.Drawing.Point(19, 18);
+            this.viewstudentlbl.Name = "viewstudentlbl";
+            this.viewstudentlbl.Size = new System.Drawing.Size(138, 28);
+            this.viewstudentlbl.TabIndex = 0;
+            this.viewstudentlbl.Text = "View Student";
             // 
             // panel3
             // 
@@ -196,23 +197,23 @@
             this.viewlbl.Text = "View Courses";
             this.viewlbl.Click += new System.EventHandler(this.viewlbl_Click);
             // 
-            // panel6
+            // panel4
             // 
-            this.panel6.Controls.Add(this.viewstudentlbl);
-            this.panel6.Location = new System.Drawing.Point(698, 48);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(200, 61);
-            this.panel6.TabIndex = 18;
+            this.panel4.Controls.Add(this.addlbl);
+            this.panel4.Location = new System.Drawing.Point(381, 48);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(200, 61);
+            this.panel4.TabIndex = 0;
             // 
-            // viewstudentlbl
+            // addlbl
             // 
-            this.viewstudentlbl.AutoSize = true;
-            this.viewstudentlbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.viewstudentlbl.Location = new System.Drawing.Point(19, 18);
-            this.viewstudentlbl.Name = "viewstudentlbl";
-            this.viewstudentlbl.Size = new System.Drawing.Size(138, 28);
-            this.viewstudentlbl.TabIndex = 0;
-            this.viewstudentlbl.Text = "View Student";
+            this.addlbl.AutoSize = true;
+            this.addlbl.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.addlbl.Location = new System.Drawing.Point(19, 18);
+            this.addlbl.Name = "addlbl";
+            this.addlbl.Size = new System.Drawing.Size(129, 28);
+            this.addlbl.TabIndex = 14;
+            this.addlbl.Text = "Add Courses";
             // 
             // Manager
             // 
@@ -235,12 +236,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pythonpic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.ResumeLayout(false);
 
         }

@@ -38,27 +38,27 @@ namespace WinFormsApp1
             this.Exerciselbl = new System.Windows.Forms.Label();
             this.Learninglbl = new System.Windows.Forms.Label();
             this.Courseslbl = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.cpppic = new System.Windows.Forms.PictureBox();
+            this.rpic = new System.Windows.Forms.PictureBox();
+            this.javapic = new System.Windows.Forms.PictureBox();
+            this.cspic = new System.Windows.Forms.PictureBox();
+            this.nodepic = new System.Windows.Forms.PictureBox();
+            this.csspic = new System.Windows.Forms.PictureBox();
+            this.jspic = new System.Windows.Forms.PictureBox();
+            this.reactpic = new System.Windows.Forms.PictureBox();
+            this.pypic = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SiteLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Avatar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cpppic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rpic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.javapic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cspic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nodepic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.csspic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jspic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.reactpic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pypic)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -100,6 +100,7 @@ namespace WinFormsApp1
             this.UserRealName.Size = new System.Drawing.Size(42, 28);
             this.UserRealName.TabIndex = 1;
             this.UserRealName.Text = "Me";
+            this.UserRealName.Click += new System.EventHandler(this.UserRealName_Click);
             // 
             // Fightlbl
             // 
@@ -141,122 +142,122 @@ namespace WinFormsApp1
             this.Courseslbl.TabIndex = 1;
             this.Courseslbl.Text = "Courses";
             // 
-            // pictureBox1
+            // cpppic
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(53, 175);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(270, 100);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.cpppic.BackColor = System.Drawing.Color.White;
+            this.cpppic.Image = ((System.Drawing.Image)(resources.GetObject("cpppic.Image")));
+            this.cpppic.Location = new System.Drawing.Point(53, 175);
+            this.cpppic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cpppic.Name = "cpppic";
+            this.cpppic.Size = new System.Drawing.Size(270, 100);
+            this.cpppic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.cpppic.TabIndex = 5;
+            this.cpppic.TabStop = false;
+            this.cpppic.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // pictureBox3
+            // rpic
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(536, 175);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(270, 100);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 7;
-            this.pictureBox3.TabStop = false;
+            this.rpic.Image = ((System.Drawing.Image)(resources.GetObject("rpic.Image")));
+            this.rpic.Location = new System.Drawing.Point(536, 175);
+            this.rpic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.rpic.Name = "rpic";
+            this.rpic.Size = new System.Drawing.Size(270, 100);
+            this.rpic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.rpic.TabIndex = 7;
+            this.rpic.TabStop = false;
             // 
-            // pictureBox4
+            // javapic
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(948, 175);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(286, 100);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 8;
-            this.pictureBox4.TabStop = false;
+            this.javapic.Image = ((System.Drawing.Image)(resources.GetObject("javapic.Image")));
+            this.javapic.Location = new System.Drawing.Point(948, 175);
+            this.javapic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.javapic.Name = "javapic";
+            this.javapic.Size = new System.Drawing.Size(286, 100);
+            this.javapic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.javapic.TabIndex = 8;
+            this.javapic.TabStop = false;
             // 
-            // pictureBox5
+            // cspic
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(53, 346);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(270, 100);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 9;
-            this.pictureBox5.TabStop = false;
+            this.cspic.Image = ((System.Drawing.Image)(resources.GetObject("cspic.Image")));
+            this.cspic.Location = new System.Drawing.Point(53, 346);
+            this.cspic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cspic.Name = "cspic";
+            this.cspic.Size = new System.Drawing.Size(270, 100);
+            this.cspic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.cspic.TabIndex = 9;
+            this.cspic.TabStop = false;
             // 
-            // pictureBox6
+            // nodepic
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(536, 346);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(270, 100);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 10;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            this.nodepic.Image = ((System.Drawing.Image)(resources.GetObject("nodepic.Image")));
+            this.nodepic.Location = new System.Drawing.Point(948, 346);
+            this.nodepic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.nodepic.Name = "nodepic";
+            this.nodepic.Size = new System.Drawing.Size(286, 100);
+            this.nodepic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.nodepic.TabIndex = 11;
+            this.nodepic.TabStop = false;
             // 
-            // pictureBox7
+            // csspic
             // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(948, 346);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(286, 100);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 11;
-            this.pictureBox7.TabStop = false;
+            this.csspic.Image = ((System.Drawing.Image)(resources.GetObject("csspic.Image")));
+            this.csspic.Location = new System.Drawing.Point(53, 508);
+            this.csspic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.csspic.Name = "csspic";
+            this.csspic.Size = new System.Drawing.Size(270, 100);
+            this.csspic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.csspic.TabIndex = 12;
+            this.csspic.TabStop = false;
             // 
-            // pictureBox8
+            // jspic
             // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(53, 508);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(270, 100);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 12;
-            this.pictureBox8.TabStop = false;
+            this.jspic.Image = ((System.Drawing.Image)(resources.GetObject("jspic.Image")));
+            this.jspic.Location = new System.Drawing.Point(536, 508);
+            this.jspic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.jspic.Name = "jspic";
+            this.jspic.Size = new System.Drawing.Size(270, 100);
+            this.jspic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.jspic.TabIndex = 13;
+            this.jspic.TabStop = false;
             // 
-            // pictureBox9
+            // reactpic
             // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(536, 508);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(262, 100);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 13;
-            this.pictureBox9.TabStop = false;
+            this.reactpic.Image = ((System.Drawing.Image)(resources.GetObject("reactpic.Image")));
+            this.reactpic.Location = new System.Drawing.Point(948, 508);
+            this.reactpic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.reactpic.Name = "reactpic";
+            this.reactpic.Size = new System.Drawing.Size(286, 100);
+            this.reactpic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.reactpic.TabIndex = 14;
+            this.reactpic.TabStop = false;
             // 
-            // pictureBox10
+            // pypic
             // 
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(948, 508);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(286, 100);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 14;
-            this.pictureBox10.TabStop = false;
+            this.pypic.Image = ((System.Drawing.Image)(resources.GetObject("pypic.Image")));
+            this.pypic.Location = new System.Drawing.Point(536, 346);
+            this.pypic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pypic.Name = "pypic";
+            this.pypic.Size = new System.Drawing.Size(270, 100);
+            this.pypic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pypic.TabIndex = 15;
+            this.pypic.TabStop = false;
+            this.pypic.Click += new System.EventHandler(this.pypic_Click);
             // 
             // HomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pypic);
+            this.Controls.Add(this.reactpic);
+            this.Controls.Add(this.jspic);
+            this.Controls.Add(this.csspic);
+            this.Controls.Add(this.nodepic);
+            this.Controls.Add(this.cspic);
+            this.Controls.Add(this.javapic);
+            this.Controls.Add(this.rpic);
+            this.Controls.Add(this.cpppic);
             this.Controls.Add(this.Courseslbl);
             this.Controls.Add(this.panel1);
             this.Name = "HomePage";
@@ -266,15 +267,15 @@ namespace WinFormsApp1
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SiteLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Avatar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cpppic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rpic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.javapic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cspic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nodepic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.csspic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jspic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.reactpic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pypic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -291,14 +292,14 @@ namespace WinFormsApp1
         private System.Windows.Forms.PictureBox Avatar;
         private System.Windows.Forms.Label UserRealName;
         private System.Windows.Forms.Label Courseslbl;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox cpppic;
+        private System.Windows.Forms.PictureBox rpic;
+        private System.Windows.Forms.PictureBox javapic;
+        private System.Windows.Forms.PictureBox cspic;
+        private System.Windows.Forms.PictureBox nodepic;
+        private System.Windows.Forms.PictureBox csspic;
+        private System.Windows.Forms.PictureBox jspic;
+        private System.Windows.Forms.PictureBox reactpic;
+        private System.Windows.Forms.PictureBox pypic;
     }
 }

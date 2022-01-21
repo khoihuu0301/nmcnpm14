@@ -40,6 +40,8 @@ namespace WinFormsApp1.Student
             this.panel3 = new System.Windows.Forms.Panel();
             this.returnproblembtn = new System.Windows.Forms.Button();
             this.notilbl = new System.Windows.Forms.Label();
+            this.UserRealName = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -47,6 +49,7 @@ namespace WinFormsApp1.Student
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.panel1.Controls.Add(this.UserRealName);
             this.panel1.Location = new System.Drawing.Point(0, 1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1263, 50);
@@ -142,6 +145,7 @@ namespace WinFormsApp1.Student
             this.returnproblembtn.TabIndex = 1;
             this.returnproblembtn.Text = "Solve Python If-Else problem";
             this.returnproblembtn.UseVisualStyleBackColor = true;
+            this.returnproblembtn.Click += new System.EventHandler(this.returnproblembtn_Click);
             // 
             // notilbl
             // 
@@ -154,6 +158,16 @@ namespace WinFormsApp1.Student
             this.notilbl.Text = "This editorial requires unlocking.\r\nIf you unlock the editorial, your score will " +
     "not be counted toward your progress.";
             this.notilbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // UserRealName
+            // 
+            this.UserRealName.AutoSize = true;
+            this.UserRealName.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.UserRealName.Location = new System.Drawing.Point(1134, 8);
+            this.UserRealName.Name = "UserRealName";
+            this.UserRealName.Size = new System.Drawing.Size(42, 28);
+            this.UserRealName.TabIndex = 19;
+            this.UserRealName.Text = "Me";
             // 
             // Editurial
             // 
@@ -170,6 +184,8 @@ namespace WinFormsApp1.Student
             this.Controls.Add(this.panel1);
             this.Name = "Editurial";
             this.Text = "Editurial";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -191,5 +207,6 @@ namespace WinFormsApp1.Student
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button returnproblembtn;
         private System.Windows.Forms.Label notilbl;
+        private System.Windows.Forms.Label UserRealName;
     }
 }

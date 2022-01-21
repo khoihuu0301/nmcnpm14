@@ -38,7 +38,9 @@ namespace WinFormsApp1.Student
             this.pythonifelselbl = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.UserRealName = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tutorialbtn
@@ -116,6 +118,7 @@ namespace WinFormsApp1.Student
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.panel1.Controls.Add(this.UserRealName);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1263, 50);
@@ -127,6 +130,16 @@ namespace WinFormsApp1.Student
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(589, 345);
             this.panel3.TabIndex = 33;
+            // 
+            // UserRealName
+            // 
+            this.UserRealName.AutoSize = true;
+            this.UserRealName.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.UserRealName.Location = new System.Drawing.Point(1134, 8);
+            this.UserRealName.Name = "UserRealName";
+            this.UserRealName.Size = new System.Drawing.Size(42, 28);
+            this.UserRealName.TabIndex = 34;
+            this.UserRealName.Text = "Me";
             // 
             // Disscusions
             // 
@@ -145,6 +158,8 @@ namespace WinFormsApp1.Student
             this.Text = "Disscusions";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -160,5 +175,6 @@ namespace WinFormsApp1.Student
         private System.Windows.Forms.Label pythonifelselbl;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label UserRealName;
     }
 }
