@@ -7,6 +7,7 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using WinFormsApp1.Student;
 
 namespace WinFormsApp1.I_O
 {
@@ -40,8 +41,10 @@ namespace WinFormsApp1.I_O
                 switch (role)
                 {
                     case 1:
-                        {   
-
+                        {
+                            Browse brw = new Browse();
+                            brw.Show();
+                            this.Hide();
                             break;
                         }
 
